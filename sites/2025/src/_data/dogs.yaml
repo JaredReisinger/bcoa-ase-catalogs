@@ -21,16 +21,17 @@
   state: WA
   registration: HP72831102
   ancestors:
-    sireSire: {name: Lukuru Amisi}
-    sire: {name: Lukuru ISolu, prefix: UIC-INT, suffix: BCAT}
-    sireDamSire: {name: Meisterhaus Tail of Intrigue, prefix: AM SWE DK CH}
-    sireDam: {name: Lukuru Bomoi Mopepe}
-    sireDamDam: {name: Lukuru na Liboso Mopaya}
-    damSire: {name: Lukuru Amisi}
-    dam: {name: Kinetic Lukuru Fates of Chervil with FoPaws, suffix: SC}
-    damDamSire: {name: Fopaw's Saorsa Bodega Bay Redux, prefix: GCH DC}
-    damDam: {name: Fopaws Lukuru Wyrd Sister at Kinetic, prefix: AM CH, suffix: SC}
-    damDamDam: {name: Fopaw's Lukuru Gening Giraffalo}
+    sireSire: { name: Lukuru Amisi }
+    sire: { name: Lukuru ISolu, prefix: UIC-INT, suffix: BCAT }
+    sireDamSire: { name: Meisterhaus Tail of Intrigue, prefix: AM SWE DK CH }
+    sireDam: { name: Lukuru Bomoi Mopepe }
+    sireDamDam: { name: Lukuru na Liboso Mopaya }
+    damSire: { name: Lukuru Amisi }
+    dam: { name: Kinetic Lukuru Fates of Chervil with FoPaws, suffix: SC }
+    damDamSire: { name: Fopaw's Saorsa Bodega Bay Redux, prefix: GCH DC }
+    damDam:
+      { name: Fopaws Lukuru Wyrd Sister at Kinetic, prefix: AM CH, suffix: SC }
+    damDamDam: { name: Fopaw's Lukuru Gening Giraffalo }
 
 - name: Avant's Zamba Monene Lukuru
   ase: true
@@ -55,16 +56,17 @@
   state: WA
   registration: HP72831104
   ancestors:
-    sireSire: {name: Lukuru Amisi}
-    sire: {name: Lukuru ISolu, prefix: UIC-INT, suffix: BCAT}
-    sireDamSire: {name: Meisterhaus Tail of Intrigue, prefix: AM/SWE/DK CH}
-    sireDam: {name: Lukuru Bomoi Mopepe}
-    sireDamDam: {name: Lukuru na Liboso Mopaya}
-    damSire: {name: Lukuru Amisi}
-    dam: {name: Kinetic Lukuru Fates of Chervil with FoPaws, suffix: SC}
-    damDamSire: {name: Fopaw's Saorsa Bodega Bay Redux, prefix: GCH DC}
-    damDam: {name: Fopaws Lukuru Wyrd Sister at Kinetic, prefix: AM CH, suffix: SC}
-    damDamDam: {name: Fopaw's Lukuru Gening Giraffalo}
+    sireSire: { name: Lukuru Amisi }
+    sire: { name: Lukuru ISolu, prefix: UIC-INT, suffix: BCAT }
+    sireDamSire: { name: Meisterhaus Tail of Intrigue, prefix: AM/SWE/DK CH }
+    sireDam: { name: Lukuru Bomoi Mopepe }
+    sireDamDam: { name: Lukuru na Liboso Mopaya }
+    damSire: { name: Lukuru Amisi }
+    dam: { name: Kinetic Lukuru Fates of Chervil with FoPaws, suffix: SC }
+    damDamSire: { name: Fopaw's Saorsa Bodega Bay Redux, prefix: GCH DC }
+    damDam:
+      { name: Fopaws Lukuru Wyrd Sister at Kinetic, prefix: AM CH, suffix: SC }
+    damDamDam: { name: Fopaw's Lukuru Gening Giraffalo }
 
 - name: Avongara Kiri
   ase: true
@@ -111,16 +113,16 @@
   state: CO
   registration: HP60078501
   ancestors:
-    sireSireSire: {name: Avongara Gangura}
-    sireSire: {name: Avongara Zindiko Brushy Run, suffix: CDX CGC}
-    sireSireDam: {name: Avongara Zamee}
-    sire: {name: Avongara Timar Zigs to SkyHi}
-    sireDamSire: {name: Avongara Zibili, suffix: RN}
-    sireDam: {name: Avongara Zhanna, suffix: RN TKN}
-    sireDamDam: {name: Avongara Pleasant Surprise}
-    damSire: {name: NTomba Mosika, prefix: FC, suffix: RI SC NA}
-    dam: {name: Avon'Tomba SkyHi's Beautiful Zuri}
-    damDam: {name: Avongara Ziki}
+    sireSireSire: { name: Avongara Gangura }
+    sireSire: { name: Avongara Zindiko Brushy Run, suffix: CDX CGC }
+    sireSireDam: { name: Avongara Zamee }
+    sire: { name: Avongara Timar Zigs to SkyHi }
+    sireDamSire: { name: Avongara Zibili, suffix: RN }
+    sireDam: { name: Avongara Zhanna, suffix: RN TKN }
+    sireDamDam: { name: Avongara Pleasant Surprise }
+    damSire: { name: NTomba Mosika, prefix: FC, suffix: RI SC NA }
+    dam: { name: Avon'Tomba SkyHi's Beautiful Zuri }
+    damDam: { name: Avongara Ziki }
 
 - name: Dibu's Bakindo
   ase: true
@@ -145,14 +147,19 @@
   state: WA
   registration: HP55368204
   ancestors:
-    sireSireSire: {name: Grandquest Kazor's Motumbo Xequemate, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: No Ka Oi Travels To Kazor, prefix: AM SWE CH}
-    sireSireDam: {name: No Ka Oi's Jar-Lani Paha, prefix: AM CH}
-    sire: {name: No Ka Oi's Pono Pride Kalani}
-    sireDamSire: {name: Kazor's Fine Design By Zindika, prefix: AM CH}
-    sireDam: {name: No Ka Oi's Vintage Mertiage Syrah Sara}
-    sireDamDam: {name: No Ka Oi's Manalea Pohalani, prefix: AM CH}
-    dam: {name: Avongara Kiri, suffix: SC}
+    sireSireSire:
+      {
+        name: Grandquest Kazor's Motumbo Xequemate,
+        prefix: AM CH,
+        suffix: SDHR,
+      }
+    sireSire: { name: No Ka Oi Travels To Kazor, prefix: AM SWE CH }
+    sireSireDam: { name: No Ka Oi's Jar-Lani Paha, prefix: AM CH }
+    sire: { name: No Ka Oi's Pono Pride Kalani }
+    sireDamSire: { name: Kazor's Fine Design By Zindika, prefix: AM CH }
+    sireDam: { name: No Ka Oi's Vintage Mertiage Syrah Sara }
+    sireDamDam: { name: No Ka Oi's Manalea Pohalani, prefix: AM CH }
+    dam: { name: Avongara Kiri, suffix: SC }
 
 - name: Dibu's Bambata
   parade: true
@@ -175,14 +182,19 @@
   state: WA
   registration: HP55368201
   ancestors:
-    sireSireSire: {name: Grandquest Kazor's Motumbo Xequemate, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: No Ka Oi Travels To Kazor, prefix: AM SWE CH}
-    sireSireDam: {name: No Ka Oi's Jar-Lani Paha, prefix: AM CH}
-    sire: {name: No Ka Oi's Pono Pride Kalani}
-    sireDamSire: {name: Kazor's Fine Design By Zindika, prefix: AM CH}
-    sireDam: {name: No Ka Oi's Vintage Mertiage Syrah Sara}
-    sireDamDam: {name: No Ka Oi's Manalea Pohalani, prefix: AM CH}
-    dam: {name: Avongara Kiri, suffix: SC}
+    sireSireSire:
+      {
+        name: Grandquest Kazor's Motumbo Xequemate,
+        prefix: AM CH,
+        suffix: SDHR,
+      }
+    sireSire: { name: No Ka Oi Travels To Kazor, prefix: AM SWE CH }
+    sireSireDam: { name: No Ka Oi's Jar-Lani Paha, prefix: AM CH }
+    sire: { name: No Ka Oi's Pono Pride Kalani }
+    sireDamSire: { name: Kazor's Fine Design By Zindika, prefix: AM CH }
+    sireDam: { name: No Ka Oi's Vintage Mertiage Syrah Sara }
+    sireDamDam: { name: No Ka Oi's Manalea Pohalani, prefix: AM CH }
+    dam: { name: Avongara Kiri, suffix: SC }
 
 - name: Fopaw's Lukuru One Singular Sensation
   ase: true
@@ -205,15 +217,18 @@
   state: AZ
   registration: HP49581601
   ancestors:
-    sireSireSire: {name: Palmdesert Lion On The Loose, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Terrarust's My-Tym To Appeal, prefix: AM CAN CH, suffix: JC SDHR}
-    sireSireDam: {name: Akuaba N Terrarust Eclipse, suffix: BBHR}
-    sire: {name: FoPaw's Royal Flush, prefix: AM CH, suffix: SDHR}
-    sireDamSire: {name: Fopaws Designated Driver, prefix: AM CAN CH, suffix: JC SDHR}
-    sireDam: {name: FoPaw's Ticket To Ride, prefix: AM CH}
-    sireDamDam: {name: Terrarust's Murder She Wrote, prefix: AM CAN CH}
-    damSire: {name: MPalema}
-    dam: {name: Lukuru Lema}
+    sireSireSire:
+      { name: Palmdesert Lion On The Loose, prefix: AM CH, suffix: SDHR }
+    sireSire:
+      { name: Terrarust's My-Tym To Appeal, prefix: AM CAN CH, suffix: JC SDHR }
+    sireSireDam: { name: Akuaba N Terrarust Eclipse, suffix: BBHR }
+    sire: { name: FoPaw's Royal Flush, prefix: AM CH, suffix: SDHR }
+    sireDamSire:
+      { name: Fopaws Designated Driver, prefix: AM CAN CH, suffix: JC SDHR }
+    sireDam: { name: FoPaw's Ticket To Ride, prefix: AM CH }
+    sireDamDam: { name: Terrarust's Murder She Wrote, prefix: AM CAN CH }
+    damSire: { name: MPalema }
+    dam: { name: Lukuru Lema }
 
 - name: Fopaws My Brothers Keeper
   parade: true
@@ -234,19 +249,21 @@
   state: AZ
   registration: HP654920??
   ancestors:
-    sireSireSire: {name: Terrarust's My-Tym To Appeal, prefix: AM CAN CH, suffix: JC SDHR}
-    sireSire: {name: FoPaw's Royal Flush, prefix: AM CH, suffix: SDHR}
-    sireSireDam: {name: FoPaw's Ticket To Ride, prefix: AM CH}
-    sire: {name: Fopaw's Lukuru One Singular Sensation}
-    sireDamSire: {name: MPalema}
-    sireDam: {name: Lukuru Lema}
-    damSireSire: {name: Terrarust Fopaws Allmylovin, prefix: AM CH}
-    damSire: {name: Fopaws Oh My God, prefix: AM CH}
-    damSireDam: {name: Atarasi Taji Berimo Dotcom, prefix: AM/CAN CH, suffix: SC BBHR}
-    dam: {name: Fopaw's Tequila Mockingbird}
-    damDamSire: {name: Fopaws Designated Driver, prefix: AM/CAN CH}
-    damDam: {name: Fopaw's Poetry In Motion, prefix: AM CH}
-    damDamDam: {name: Kazor's Good Karma at FoPaws, prefix: AM CH}
+    sireSireSire:
+      { name: Terrarust's My-Tym To Appeal, prefix: AM CAN CH, suffix: JC SDHR }
+    sireSire: { name: FoPaw's Royal Flush, prefix: AM CH, suffix: SDHR }
+    sireSireDam: { name: FoPaw's Ticket To Ride, prefix: AM CH }
+    sire: { name: Fopaw's Lukuru One Singular Sensation }
+    sireDamSire: { name: MPalema }
+    sireDam: { name: Lukuru Lema }
+    damSireSire: { name: Terrarust Fopaws Allmylovin, prefix: AM CH }
+    damSire: { name: Fopaws Oh My God, prefix: AM CH }
+    damSireDam:
+      { name: Atarasi Taji Berimo Dotcom, prefix: AM/CAN CH, suffix: SC BBHR }
+    dam: { name: Fopaw's Tequila Mockingbird }
+    damDamSire: { name: Fopaws Designated Driver, prefix: AM/CAN CH }
+    damDam: { name: Fopaw's Poetry In Motion, prefix: AM CH }
+    damDamDam: { name: Kazor's Good Karma at FoPaws, prefix: AM CH }
 
 - name: Fopaws Thyme To Build My Spiceyb
   parade: true
@@ -267,19 +284,21 @@
   state: AZ
   registration: HP65492001
   ancestors:
-    sireSireSire: {name: Terrarust's My-Tym To Appeal, prefix: AM/CAN CH, suffix: JC SDHR}
-    sireSire: {name: FoPaw's Royal Flush, prefix: AM CH, suffix: SDHR}
-    sireSireDam: {name: FoPaw's Ticket To Ride, prefix: AM CH}
-    sire: {name: Fopaw's Lukuru One Singular Sensation}
-    sireDamSire: {name: MPalema}
-    sireDam: {name: Lukuru Lema}
-    damSireSire: {name: Terrarust Fopaws Allmylovin, prefix: AM CH}
-    damSire: {name: Fopaws Oh My God, prefix: AM CH}
-    damSireDam: {name: Atarasi Taji Berimo Dotcom, prefix: AM/CAN CH, suffix: SC BBHR}
-    dam: {name: Fopaw's Tequila Mockingbird}
-    damDamSire: {name: Fopaws Designated Driver, prefix: AM/CAN CH}
-    damDam: {name: Fopaw's Poetry In Motion, prefix: AM CH}
-    damDamDam: {name: Kazor's Good Karma at FoPaws, prefix: AM CH}
+    sireSireSire:
+      { name: Terrarust's My-Tym To Appeal, prefix: AM/CAN CH, suffix: JC SDHR }
+    sireSire: { name: FoPaw's Royal Flush, prefix: AM CH, suffix: SDHR }
+    sireSireDam: { name: FoPaw's Ticket To Ride, prefix: AM CH }
+    sire: { name: Fopaw's Lukuru One Singular Sensation }
+    sireDamSire: { name: MPalema }
+    sireDam: { name: Lukuru Lema }
+    damSireSire: { name: Terrarust Fopaws Allmylovin, prefix: AM CH }
+    damSire: { name: Fopaws Oh My God, prefix: AM CH }
+    damSireDam:
+      { name: Atarasi Taji Berimo Dotcom, prefix: AM/CAN CH, suffix: SC BBHR }
+    dam: { name: Fopaw's Tequila Mockingbird }
+    damDamSire: { name: Fopaws Designated Driver, prefix: AM/CAN CH }
+    damDam: { name: Fopaw's Poetry In Motion, prefix: AM CH }
+    damDamDam: { name: Kazor's Good Karma at FoPaws, prefix: AM CH }
 
 - name: Fopaws Lukuru Wyrd Sister At Kinetic
   ase: true
@@ -306,19 +325,32 @@
   state: CA
   registration: HP53475001
   ancestors:
-    sireSireSire: {name: Jasiri-Sukari HR Pup N'Stuff, prefix: AM AUS CH, suffix: SDHR}
-    sireSire: {name: Jasiri-Sukari John Tri-Volta, prefix: DC, suffix: SC SDHR}
-    sireSireDam: {name: Sukari-Jasiri Soda Pup, prefix: AM CH, suffix: BBHR}
-    sire: {name: FoPaw's Saorsa Bodega Bay Redux, prefix: GCH DC, suffix: SC}
-    sireDamSire: {name: FoPaw's Royal Flush, prefix: AM CH, suffix: SDHR}
-    sireDam: {name: FoPaw's Touch of Evil at Saorsa, prefix: GCHB DC, suffix: RA SC CA TKP MVB PBBHR ATD}
-    sireDamDam: {name: FoPaws Emerant Mirandaza Charmer, prefix: AM CH}
-    damSireSire: {name: FoPaw's Royal Flush, prefix: AM CH, suffix: SDHR}
-    damSire: {name: Atarasi's D'Lucks Edition, prefix: BISS BIF DC AM CAN CH, suffix: SC FCH SDHR}
-    damSireDam: {name: Atarasi Taji Berimo Dotcom, prefix: AM CAN CH, suffix: SC BBHR}
-    dam: {name: Fopaw's Lukuru Gening Giraffalo}
-    damDamSire: {name: MPalema}
-    damDam: {name: Lukuru Lema}
+    sireSireSire:
+      { name: Jasiri-Sukari HR Pup N'Stuff, prefix: AM AUS CH, suffix: SDHR }
+    sireSire:
+      { name: Jasiri-Sukari John Tri-Volta, prefix: DC, suffix: SC SDHR }
+    sireSireDam: { name: Sukari-Jasiri Soda Pup, prefix: AM CH, suffix: BBHR }
+    sire: { name: FoPaw's Saorsa Bodega Bay Redux, prefix: GCH DC, suffix: SC }
+    sireDamSire: { name: FoPaw's Royal Flush, prefix: AM CH, suffix: SDHR }
+    sireDam:
+      {
+        name: FoPaw's Touch of Evil at Saorsa,
+        prefix: GCHB DC,
+        suffix: RA SC CA TKP MVB PBBHR ATD,
+      }
+    sireDamDam: { name: FoPaws Emerant Mirandaza Charmer, prefix: AM CH }
+    damSireSire: { name: FoPaw's Royal Flush, prefix: AM CH, suffix: SDHR }
+    damSire:
+      {
+        name: Atarasi's D'Lucks Edition,
+        prefix: BISS BIF DC AM CAN CH,
+        suffix: SC FCH SDHR,
+      }
+    damSireDam:
+      { name: Atarasi Taji Berimo Dotcom, prefix: AM CAN CH, suffix: SC BBHR }
+    dam: { name: Fopaw's Lukuru Gening Giraffalo }
+    damDamSire: { name: MPalema }
+    damDam: { name: Lukuru Lema }
 
 - name: Kibushi Gugu Diospyros
   ase: true
@@ -343,16 +375,18 @@
   state: AZ
   registration: HP46493703
   ancestors:
-    sireSireSire: {name: Reveille Boutonniere, prefix: AM CH, suffix: JC SDHR}
-    sireSire: {name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR}
-    sireSireDam: {name: Rafikis Mass Expectations, prefix: AM CH, suffix: JC BBHR}
-    sire: {name: Kibushi The Oracle, prefix: AM CH}
-    sireDam: {name: Avongara Luka}
-    damSire: {name: Avongara Tambura}
-    dam: {name: Possum Creek's Ngoma}
-    damDamSire: {name: Briden's Guilty Pleasures, prefix: AM CH}
-    damDam: {name: Briden's Pinstriped Possum, prefix: AM CH}
-    damDamDam: {name: Klassic's A Star In Stripes, prefix: AM/CAN/RUS/POL/INT CH}
+    sireSireSire: { name: Reveille Boutonniere, prefix: AM CH, suffix: JC SDHR }
+    sireSire: { name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR }
+    sireSireDam:
+      { name: Rafikis Mass Expectations, prefix: AM CH, suffix: JC BBHR }
+    sire: { name: Kibushi The Oracle, prefix: AM CH }
+    sireDam: { name: Avongara Luka }
+    damSire: { name: Avongara Tambura }
+    dam: { name: Possum Creek's Ngoma }
+    damDamSire: { name: Briden's Guilty Pleasures, prefix: AM CH }
+    damDam: { name: Briden's Pinstriped Possum, prefix: AM CH }
+    damDamDam:
+      { name: Klassic's A Star In Stripes, prefix: AM/CAN/RUS/POL/INT CH }
 
 - name: Kinetic Fopaws Witch Abroad Lukuru
   parade: true
@@ -376,20 +410,43 @@
   state: CA
   registration: HP60679201
   ancestors:
-    sireSireSire: {name: Atrigema Memnyth Speed (to Aniscopus)}
-    sireSire: {name: Benkura Blue Sky Mine, prefix: IR CH, suffix: JW IR JUN CH CJW13 CW13}
-    sireSireDam: {name: Antefaa Nakura Wood Nymph, prefix: IR CH, suffix: SHCM CW13}
-    sire: {name: Antefaa Lukuru Atlas}
-    sireDamSire: {name: Lukuru Amisi}
-    sireDam: {name: Lukuru Constellation Cassiopeia (for Antefaa)}
-    sireDamDam: {name: Lukuru na Liboso Mopaya}
-    damSireSire: {name: Jasiri-Sukari John Tri-Volta, prefix: DC, suffix: SC SDHR}
-    damSire: {name: FoPaw's Saorsa Bodega Bay Redux, prefix: GCH DC, suffix: SC}
-    damSireDam: {name: FoPaw's Touch of Evil at Saorsa, prefix: GCHB DC, suffix: RA SC CA TKP MVB PBBHR ATD}
-    dam: {name: Fopaws Lukuru Wyrd Sister At Kinetic, prefix: AM CH, suffix: SC TKN}
-    damDamSire: {name: Atarasi's D'Lucks Edition, prefix: BISS BIF DC AM CAN CH, suffix: SC FCH SDHR}
-    damDam: {name: Fopaw's Lukuru Gening Giraffalo}
-    damDamDam: {name: Lukuru Lema}
+    sireSireSire: { name: Atrigema Memnyth Speed (to Aniscopus) }
+    sireSire:
+      {
+        name: Benkura Blue Sky Mine,
+        prefix: IR CH,
+        suffix: JW IR JUN CH CJW13 CW13,
+      }
+    sireSireDam:
+      { name: Antefaa Nakura Wood Nymph, prefix: IR CH, suffix: SHCM CW13 }
+    sire: { name: Antefaa Lukuru Atlas }
+    sireDamSire: { name: Lukuru Amisi }
+    sireDam: { name: Lukuru Constellation Cassiopeia (for Antefaa) }
+    sireDamDam: { name: Lukuru na Liboso Mopaya }
+    damSireSire:
+      { name: Jasiri-Sukari John Tri-Volta, prefix: DC, suffix: SC SDHR }
+    damSire:
+      { name: FoPaw's Saorsa Bodega Bay Redux, prefix: GCH DC, suffix: SC }
+    damSireDam:
+      {
+        name: FoPaw's Touch of Evil at Saorsa,
+        prefix: GCHB DC,
+        suffix: RA SC CA TKP MVB PBBHR ATD,
+      }
+    dam:
+      {
+        name: Fopaws Lukuru Wyrd Sister At Kinetic,
+        prefix: AM CH,
+        suffix: SC TKN,
+      }
+    damDamSire:
+      {
+        name: Atarasi's D'Lucks Edition,
+        prefix: BISS BIF DC AM CAN CH,
+        suffix: SC FCH SDHR,
+      }
+    damDam: { name: Fopaw's Lukuru Gening Giraffalo }
+    damDamDam: { name: Lukuru Lema }
 
 - name: Kinetic Lukuru Fates of Chervil with FoPaws
   ase: true
@@ -413,14 +470,31 @@
   state: CA
   registration: HP67537502
   ancestors:
-    sire: {name: Lukuru Amisi}
-    damSireSire: {name: Jasiri-Sukari John Tri-Volta, prefix: DC, suffix: SC SDHR}
-    damSire: {name: FoPaw's Saorsa Bodega Bay Redux, prefix: GCH DC, suffix: SC}
-    damSireDam: {name: FoPaw's Touch of Evil at Saorsa, prefix: GCHB DC, suffix: RA SC CA TKP MVB PBBHR ATD}
-    dam: {name: Fopaws Lukuru Wyrd Sister At Kinetic, prefix: AM CH, suffix: SC TKN}
-    damDamSire: {name: Atarasi's D'Lucks Edition, prefix: BISS BIF DC AM CAN CH, suffix: SC FCH SDHR}
-    damDam: {name: Fopaw's Lukuru Gening Giraffalo}
-    damDamDam: {name: Lukuru Lema}
+    sire: { name: Lukuru Amisi }
+    damSireSire:
+      { name: Jasiri-Sukari John Tri-Volta, prefix: DC, suffix: SC SDHR }
+    damSire:
+      { name: FoPaw's Saorsa Bodega Bay Redux, prefix: GCH DC, suffix: SC }
+    damSireDam:
+      {
+        name: FoPaw's Touch of Evil at Saorsa,
+        prefix: GCHB DC,
+        suffix: RA SC CA TKP MVB PBBHR ATD,
+      }
+    dam:
+      {
+        name: Fopaws Lukuru Wyrd Sister At Kinetic,
+        prefix: AM CH,
+        suffix: SC TKN,
+      }
+    damDamSire:
+      {
+        name: Atarasi's D'Lucks Edition,
+        prefix: BISS BIF DC AM CAN CH,
+        suffix: SC FCH SDHR,
+      }
+    damDam: { name: Fopaw's Lukuru Gening Giraffalo }
+    damDamDam: { name: Lukuru Lema }
 
 - name: Kinetic Lukuru Wyrd And Wyld With Fopaws
   ase: true
@@ -445,14 +519,31 @@
   state: CA
   registration: HP67537503
   ancestors:
-    sire: {name: Lukuru Amisi}
-    damSireSire: {name: Jasiri-Sukari John Tri-Volta, prefix: DC, suffix: SC SDHR}
-    damSire: {name: FoPaw's Saorsa Bodega Bay Redux, prefix: GCH DC, suffix: SC}
-    damSireDam: {name: FoPaw's Touch of Evil at Saorsa, prefix: GCHB DC, suffix: RA SC CA TKP MVB PBBHR ATD}
-    dam: {name: Fopaws Lukuru Wyrd Sister At Kinetic, prefix: AM CH, suffix: SC TKN}
-    damDamSire: {name: Atarasi's D'Lucks Edition, prefix: BISS BIF DC AM CAN CH, suffix: SC FCH SDHR}
-    damDam: {name: Fopaw's Lukuru Gening Giraffalo}
-    damDamDam: {name: Lukuru Lema}
+    sire: { name: Lukuru Amisi }
+    damSireSire:
+      { name: Jasiri-Sukari John Tri-Volta, prefix: DC, suffix: SC SDHR }
+    damSire:
+      { name: FoPaw's Saorsa Bodega Bay Redux, prefix: GCH DC, suffix: SC }
+    damSireDam:
+      {
+        name: FoPaw's Touch of Evil at Saorsa,
+        prefix: GCHB DC,
+        suffix: RA SC CA TKP MVB PBBHR ATD,
+      }
+    dam:
+      {
+        name: Fopaws Lukuru Wyrd Sister At Kinetic,
+        prefix: AM CH,
+        suffix: SC TKN,
+      }
+    damDamSire:
+      {
+        name: Atarasi's D'Lucks Edition,
+        prefix: BISS BIF DC AM CAN CH,
+        suffix: SC FCH SDHR,
+      }
+    damDam: { name: Fopaw's Lukuru Gening Giraffalo }
+    damDamDam: { name: Lukuru Lema }
 
 - name: Lukuru Full Circle
   ase: true
@@ -476,16 +567,16 @@
   state: OH
   registration: HP728311
   ancestors:
-    sireSire: {name: Lukuru Amisi}
-    sire: {name: Lukuru ISolu}
-    sireDamSire: {name: Meisterhaus Tail of Intrigue}
-    sireDam: {name: Lukuru Bomoi Mopepe}
-    sireDamDam: {name: Lukuru na Liboso Mopaya}
-    damSire: {name: Lukuru Amisi}
-    dam: {name: Kinetic Lukuru Fates of Chervil with FoPaws}
-    damDamSire: {name: FoPaw's Sarosa Bodega Bay Redux}
-    damDam: {name: FoPaws Lukuru Wyrd Sister At Kinetic}
-    damDamDam: {name: Fopaw's Lukuru Genine Giraffalo}
+    sireSire: { name: Lukuru Amisi }
+    sire: { name: Lukuru ISolu }
+    sireDamSire: { name: Meisterhaus Tail of Intrigue }
+    sireDam: { name: Lukuru Bomoi Mopepe }
+    sireDamDam: { name: Lukuru na Liboso Mopaya }
+    damSire: { name: Lukuru Amisi }
+    dam: { name: Kinetic Lukuru Fates of Chervil with FoPaws }
+    damDamSire: { name: FoPaw's Sarosa Bodega Bay Redux }
+    damDam: { name: FoPaws Lukuru Wyrd Sister At Kinetic }
+    damDamDam: { name: Fopaw's Lukuru Genine Giraffalo }
 
 - name: Lukuru IKolombe
   ase: true
@@ -509,12 +600,15 @@
   state: CA
   registration: HP67552103
   ancestors:
-    sire: {name: Lukuru Amisi}
-    damSireSire: {name: Jasiri-Sukari White Collar Crime, prefix: AM CH, suffix: JC}
-    damSire: {name: Meisterhaus Tail Of Intrigue, prefix: AM SWE DK CH, suffix: SDHR}
-    damSireDam: {name: Undercover Bojak's Caitlan, prefix: AM CH, suffix: BBHR}
-    dam: {name: Lukuru Bomoi Mopepe}
-    damDam: {name: Lukuru na Liboso Mopaya}
+    sire: { name: Lukuru Amisi }
+    damSireSire:
+      { name: Jasiri-Sukari White Collar Crime, prefix: AM CH, suffix: JC }
+    damSire:
+      { name: Meisterhaus Tail Of Intrigue, prefix: AM SWE DK CH, suffix: SDHR }
+    damSireDam:
+      { name: Undercover Bojak's Caitlan, prefix: AM CH, suffix: BBHR }
+    dam: { name: Lukuru Bomoi Mopepe }
+    damDam: { name: Lukuru na Liboso Mopaya }
 
 - name: Lukuru ISolu
   ase: true
@@ -540,12 +634,12 @@
   state: WA
   registration: HP67552104
   ancestors:
-    sire: {name: Lukuru Amisi}
-    damSireSire: {name: Jasiri-Sukari White Collar Crime}
-    damSire: {name: Meisterhaus Tail of Intrigue}
-    damSireDam: {name: Undercover Bojak Caitlan}
-    dam: {name: Lukuru Bomoi Mopepe}
-    damDam: {name: Lukuru na Liboso Mopaya}
+    sire: { name: Lukuru Amisi }
+    damSireSire: { name: Jasiri-Sukari White Collar Crime }
+    damSire: { name: Meisterhaus Tail of Intrigue }
+    damSireDam: { name: Undercover Bojak Caitlan }
+    dam: { name: Lukuru Bomoi Mopepe }
+    damDam: { name: Lukuru na Liboso Mopaya }
 
 - name: Lukuru Monzoto ya Avant na Kasendo
   ase: true
@@ -569,16 +663,17 @@
   state: WA
   registration: HP72831103
   ancestors:
-    sireSire: {name: Lukuru Amisi}
-    sire: {name: Lukuru ISolu, prefix: UIC-INT, suffix: BCAT}
-    sireDamSire: {name: Meisterhaus Tail of Intrigue, prefix: AM/SWE/DK CH}
-    sireDam: {name: Lukuru Bomoi Mopepe}
-    sireDamDam: {name: Lukuru na Liboso Mopaya}
-    damSire: {name: Lukuru Amisi}
-    dam: {name: Kinetic Lukuru Fates of Chervil with FoPaws, suffix: SC}
-    damDamSire: {name: Fopaw's Saorsa Bodega Bay Redux, prefix: GCH DC}
-    damDam: {name: Fopaws Lukuru Wyrd Sister at Kinetic, prefix: AM CH, suffix: SC}
-    damDamDam: {name: Fopaw's Lukuru Gening Giraffalo}
+    sireSire: { name: Lukuru Amisi }
+    sire: { name: Lukuru ISolu, prefix: UIC-INT, suffix: BCAT }
+    sireDamSire: { name: Meisterhaus Tail of Intrigue, prefix: AM/SWE/DK CH }
+    sireDam: { name: Lukuru Bomoi Mopepe }
+    sireDamDam: { name: Lukuru na Liboso Mopaya }
+    damSire: { name: Lukuru Amisi }
+    dam: { name: Kinetic Lukuru Fates of Chervil with FoPaws, suffix: SC }
+    damDamSire: { name: Fopaw's Saorsa Bodega Bay Redux, prefix: GCH DC }
+    damDam:
+      { name: Fopaws Lukuru Wyrd Sister at Kinetic, prefix: AM CH, suffix: SC }
+    damDamDam: { name: Fopaw's Lukuru Gening Giraffalo }
 
 - name: Sinbaje's Trueheart Demosophy
   ase: true
@@ -603,20 +698,45 @@
   state: AZ
   registration: HP71006702
   ancestors:
-    sireSireSire: {name: Palm Desert Ful-a Charisma, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: SunDiata Sir Ochre Dutton, prefix: AM CH, suffix: SDHR}
-    sireSireDam: {name: SunDiata Sashalia Gold Flute}
-    sire: {name: Sinbaje's Perfect Spirit, prefix: AM CH, suffix: JC}
-    sireDamSire: {name: Avongara Bahati Nasibu}
-    sireDam: {name: Wakan African Sage Sinbaje, prefix: U-CD UCICB-CH, suffix: UD AX OAJ OAC NJC}
-    sireDamDam: {name: Akuaba's Morning Glory, prefix: AM CH}
-    damSireSire: {name: Furaha's Joy-Us Nafasi, prefix: AM CH UIC-INT CH}
-    damSire: {name: Sinbaje's The Dharma Bum, suffix: JC}
-    damSireDam: {name: Eldorado's Y's African Sinbaje, prefix: 'SPHIT MBIF FC, MACH3', suffix: CDX RAE SC MXS MXG MCJ MXP GRC FCH RATM NAC NCC TN-E TG-0 WV-E HP-N}
-    dam: {name: Sinbaje's Legendary ZiggysTARdust, suffix: BN RN FDC SC OA AXJ FCAT SWM SCME SEME CGC TKA}
-    damDamSire: {name: NTomba Mosika, prefix: FC, suffix: RI SC NA}
-    damDam: {name: Sinbaje's African BigShoes2Fill, prefix: MACH, suffix: VCD1 BN MXB MJS XF T2B CA BCAT}
-    damDamDam: {name: Sinbaje's Thyme2Rise, prefix: AM CH MACH2 RACH, suffix: CDX PCDX BN RM3 RAE2 SC MXC MJB2 NAP NJP NFP SIN SWN SBN RATCH NAC TG-O TN-N WV-N NW3}
+    sireSireSire:
+      { name: Palm Desert Ful-a Charisma, prefix: AM CH, suffix: SDHR }
+    sireSire: { name: SunDiata Sir Ochre Dutton, prefix: AM CH, suffix: SDHR }
+    sireSireDam: { name: SunDiata Sashalia Gold Flute }
+    sire: { name: Sinbaje's Perfect Spirit, prefix: AM CH, suffix: JC }
+    sireDamSire: { name: Avongara Bahati Nasibu }
+    sireDam:
+      {
+        name: Wakan African Sage Sinbaje,
+        prefix: U-CD UCICB-CH,
+        suffix: UD AX OAJ OAC NJC,
+      }
+    sireDamDam: { name: Akuaba's Morning Glory, prefix: AM CH }
+    damSireSire: { name: Furaha's Joy-Us Nafasi, prefix: AM CH UIC-INT CH }
+    damSire: { name: Sinbaje's The Dharma Bum, suffix: JC }
+    damSireDam:
+      {
+        name: Eldorado's Y's African Sinbaje,
+        prefix: "SPHIT MBIF FC, MACH3",
+        suffix: CDX RAE SC MXS MXG MCJ MXP GRC FCH RATM NAC NCC TN-E TG-0 WV-E HP-N,
+      }
+    dam:
+      {
+        name: Sinbaje's Legendary ZiggysTARdust,
+        suffix: BN RN FDC SC OA AXJ FCAT SWM SCME SEME CGC TKA,
+      }
+    damDamSire: { name: NTomba Mosika, prefix: FC, suffix: RI SC NA }
+    damDam:
+      {
+        name: Sinbaje's African BigShoes2Fill,
+        prefix: MACH,
+        suffix: VCD1 BN MXB MJS XF T2B CA BCAT,
+      }
+    damDamDam:
+      {
+        name: Sinbaje's Thyme2Rise,
+        prefix: AM CH MACH2 RACH,
+        suffix: CDX PCDX BN RM3 RAE2 SC MXC MJB2 NAP NJP NFP SIN SWN SBN RATCH NAC TG-O TN-N WV-N NW3,
+      }
 
 - name: Taji's hAfrican Queen Disa
   ase: true
@@ -641,14 +761,22 @@
   state: AZ
   registration: HP44466204
   ancestors:
-    sireSireSire: {name: Reveille Tried And True, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Berimo's Roustabout, prefix: DC, suffix: SC SDHR}
-    sireSireDam: {name: Khamsin Berimo Asante Ibura, prefix: AM CH, suffix: SC BBHR}
-    sire: {name: Penda Taji's Tri-Umphant One, prefix: AM CAN CH, suffix: JC SDHR}
-    sireDamSire: {name: Proudlaan Kipenzi of Taji, prefix: DC, suffix: CD MC LCM CGC SDHR}
-    sireDam: {name: Taji's Cinnamon Swirl, prefix: AM CH, suffix: BBHR}
-    sireDamDam: {name: Arubmec's Traces Of Taji, prefix: DC, suffix: MC FCH CGC}
-    dam: {name: Avongara Naziki, prefix: FC, suffix: SC RATN}
+    sireSireSire: { name: Reveille Tried And True, prefix: AM CH, suffix: SDHR }
+    sireSire: { name: Berimo's Roustabout, prefix: DC, suffix: SC SDHR }
+    sireSireDam:
+      { name: Khamsin Berimo Asante Ibura, prefix: AM CH, suffix: SC BBHR }
+    sire:
+      { name: Penda Taji's Tri-Umphant One, prefix: AM CAN CH, suffix: JC SDHR }
+    sireDamSire:
+      {
+        name: Proudlaan Kipenzi of Taji,
+        prefix: DC,
+        suffix: CD MC LCM CGC SDHR,
+      }
+    sireDam: { name: Taji's Cinnamon Swirl, prefix: AM CH, suffix: BBHR }
+    sireDamDam:
+      { name: Arubmec's Traces Of Taji, prefix: DC, suffix: MC FCH CGC }
+    dam: { name: Avongara Naziki, prefix: FC, suffix: SC RATN }
 
 - name: Ture's Sending Sirius Signals
   ase: true
@@ -674,18 +802,36 @@
   state: AZ
   registration: HP61808904
   ancestors:
-    sireSireSire: {name: C-Quest's Just Push Play, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Reveille Push The Limit To, prefix: GCH AM CH, suffix: MV JC SDHR}
-    sireSireDam: {name: Reveille Accord, prefix: AM CH, suffix: BBHR}
-    sire: {name: Dark Moon's Bada Bing!, prefix: GCHB AM CH}
-    sireDamSire: {name: Jokuba C-Quest First Round Knock Out, prefix: GCH AM CH, suffix: SDHR}
-    sireDam: {name: Dark Moon's Barking Bad, prefix: GCHS AM CH, suffix: JC}
-    sireDamDam: {name: Dark Moon's Tilt-A-Whirl, prefix: GCH AM CH, suffix: BBHR}
-    damSireSire: {name: Berimo's Roustabout, prefix: DC, suffix: SC SDHR}
-    damSire: {name: Penda Taji's Tri-Umphant One, prefix: AM/CAN CH, suffix: JC SDHR}
-    damSireDam: {name: Taji's Cinnamon Swirl, prefix: AM CH, suffix: BBHR}
-    dam: {name: Taji's hAfrican Queen Disa, prefix: DC, suffix: SC CA BCAT CGCA CGCU TKA RATM FDX}
-    damDam: {name: Avongara Naziki, prefix: FC, suffix: SC RATN}
+    sireSireSire:
+      { name: C-Quest's Just Push Play, prefix: AM CH, suffix: SDHR }
+    sireSire:
+      {
+        name: Reveille Push The Limit To,
+        prefix: GCH AM CH,
+        suffix: MV JC SDHR,
+      }
+    sireSireDam: { name: Reveille Accord, prefix: AM CH, suffix: BBHR }
+    sire: { name: Dark Moon's Bada Bing!, prefix: GCHB AM CH }
+    sireDamSire:
+      {
+        name: Jokuba C-Quest First Round Knock Out,
+        prefix: GCH AM CH,
+        suffix: SDHR,
+      }
+    sireDam: { name: Dark Moon's Barking Bad, prefix: GCHS AM CH, suffix: JC }
+    sireDamDam:
+      { name: Dark Moon's Tilt-A-Whirl, prefix: GCH AM CH, suffix: BBHR }
+    damSireSire: { name: Berimo's Roustabout, prefix: DC, suffix: SC SDHR }
+    damSire:
+      { name: Penda Taji's Tri-Umphant One, prefix: AM/CAN CH, suffix: JC SDHR }
+    damSireDam: { name: Taji's Cinnamon Swirl, prefix: AM CH, suffix: BBHR }
+    dam:
+      {
+        name: Taji's hAfrican Queen Disa,
+        prefix: DC,
+        suffix: SC CA BCAT CGCA CGCU TKA RATM FDX,
+      }
+    damDam: { name: Avongara Naziki, prefix: FC, suffix: SC RATN }
 
 - name: Ture's Stuff Dreams Are Made Of
   ase: true
@@ -711,15 +857,33 @@
   state: AZ
   registration: HP61808902
   ancestors:
-    sireSireSire: {name: C-Quest's Just Push Play, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Reveille Push The Limit To, prefix: GCH AM CH, suffix: MV JC SDHR}
-    sireSireDam: {name: Reveille Accord, prefix: AM CH, suffix: BBHR}
-    sire: {name: Dark Moon's Bada Bing!, prefix: GCHB AM CH}
-    sireDamSire: {name: Jokuba C-Quest First Round Knock Out, prefix: GCH AM CH, suffix: SDHR}
-    sireDam: {name: Dark Moon's Barking Bad, prefix: GCHS AM CH, suffix: JC}
-    sireDamDam: {name: Dark Moon's Tilt-A-Whirl, prefix: GCH AM CH, suffix: BBHR}
-    damSireSire: {name: Berimo's Roustabout, prefix: DC, suffix: SC SDHR}
-    damSire: {name: Penda Taji's Tri-Umphant One, prefix: AM/CAN CH, suffix: JC SDHR}
-    damSireDam: {name: Taji's Cinnamon Swirl, prefix: AM CH, suffix: BBHR}
-    dam: {name: Taji's hAfrican Queen Disa, prefix: DC, suffix: SC CA BCAT CGCA CGCU TKA RATM FDX}
-    damDam: {name: Avongara Naziki, prefix: FC, suffix: SC RATN}
+    sireSireSire:
+      { name: C-Quest's Just Push Play, prefix: AM CH, suffix: SDHR }
+    sireSire:
+      {
+        name: Reveille Push The Limit To,
+        prefix: GCH AM CH,
+        suffix: MV JC SDHR,
+      }
+    sireSireDam: { name: Reveille Accord, prefix: AM CH, suffix: BBHR }
+    sire: { name: Dark Moon's Bada Bing!, prefix: GCHB AM CH }
+    sireDamSire:
+      {
+        name: Jokuba C-Quest First Round Knock Out,
+        prefix: GCH AM CH,
+        suffix: SDHR,
+      }
+    sireDam: { name: Dark Moon's Barking Bad, prefix: GCHS AM CH, suffix: JC }
+    sireDamDam:
+      { name: Dark Moon's Tilt-A-Whirl, prefix: GCH AM CH, suffix: BBHR }
+    damSireSire: { name: Berimo's Roustabout, prefix: DC, suffix: SC SDHR }
+    damSire:
+      { name: Penda Taji's Tri-Umphant One, prefix: AM/CAN CH, suffix: JC SDHR }
+    damSireDam: { name: Taji's Cinnamon Swirl, prefix: AM CH, suffix: BBHR }
+    dam:
+      {
+        name: Taji's hAfrican Queen Disa,
+        prefix: DC,
+        suffix: SC CA BCAT CGCA CGCU TKA RATM FDX,
+      }
+    damDam: { name: Avongara Naziki, prefix: FC, suffix: SC RATN }

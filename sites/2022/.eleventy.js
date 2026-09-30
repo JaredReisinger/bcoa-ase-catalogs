@@ -1,13 +1,12 @@
-import * as yaml from 'js-yaml';
-import { DateTime } from 'luxon';
+import * as yaml from "js-yaml";
+import { DateTime } from "luxon";
 // import navigation from '@11ty/eleventy-navigation';
-import htmlmin from 'html-minifier';
-import  inflection from 'inflection';
+import htmlmin from "html-minifier";
+import inflection from "inflection";
 
 // We can't use data from _data files inside this config, sadly, so we need
 // some things defined here:
-const showDate = DateTime.fromISO('2022-10-13T00:00:00Z', { zone: 'utc' });
-
+const showDate = DateTime.fromISO("2022-10-13T00:00:00Z", { zone: "utc" });
 
 export default function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -19,26 +18,26 @@ export default function (eleventyConfig) {
   eleventyConfig.addGlobalData("showDate", showDate);
 
   // human readable date
-  eleventyConfig.addFilter('readableDate', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-      'LLLL d, yyyy'
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+      "LLLL d, yyyy",
     );
   });
 
-  eleventyConfig.addFilter('readableAge', (dateObj) => {
-    const birthdate = DateTime.fromJSDate(dateObj, { zone: 'utc' });
-    const age = showDate.diff(birthdate, ['years', 'months']).toHuman({
+  eleventyConfig.addFilter("readableAge", (dateObj) => {
+    const birthdate = DateTime.fromJSDate(dateObj, { zone: "utc" });
+    const age = showDate.diff(birthdate, ["years", "months"]).toHuman({
       maximumFractionDigits: 0,
     });
 
     return age;
   });
 
-  eleventyConfig.addFilter('prettyQuotes', (str) => {
-    return str.replaceAll("'", '’');
+  eleventyConfig.addFilter("prettyQuotes", (str) => {
+    return str.replaceAll("'", "’");
   });
 
-  eleventyConfig.addFilter('classPlace', (place) => {
+  eleventyConfig.addFilter("classPlace", (place) => {
     const ordinal = inflection.ordinalize(String(place));
     // superscript the last two letters ('st', 'nd', 'rd', 'th'...)
     const ordStart = ordinal.length - 2;
@@ -46,23 +45,23 @@ export default function (eleventyConfig) {
     return `${ordFmt} place in class`;
   });
 
-  eleventyConfig.addFilter('ordinalize', (place) => {
+  eleventyConfig.addFilter("ordinalize", (place) => {
     const ordinal = inflection.ordinalize(String(place));
     // superscript the last two letters ('st', 'nd', 'rd', 'th'...)
     const ordStart = ordinal.length - 2;
     return `${ordinal.substring(0, ordStart)}<sup>${ordinal.substring(ordStart)}</sup>`;
   });
 
-  eleventyConfig.addFilter('fromEntries', (entries) => {
+  eleventyConfig.addFilter("fromEntries", (entries) => {
     return Object.fromEntries(entries);
   });
 
-  eleventyConfig.addFilter('match', (list, selector) => {
+  eleventyConfig.addFilter("match", (list, selector) => {
     const kvs = Object.entries(selector);
     return list.filter((item) => kvs.every(([k, v]) => item[k] === v));
   });
 
-  eleventyConfig.addFilter('pluralize', (word, count) => {
+  eleventyConfig.addFilter("pluralize", (word, count) => {
     if (count !== undefined && count === 1) {
       return word;
     }
@@ -79,27 +78,27 @@ export default function (eleventyConfig) {
   // eleventyConfig.addNunjucksGlobal('year', new Date().getFullYear().toString());
 
   // Allow YAML everywhere that JSON is supported.
-  eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
   // Copy Static Files to /_Site
 
   eleventyConfig.addPassthroughCopy({
-    'node_modules/alpinejs/dist/cdn.min.js': 'static/js/alpine.js',
+    "node_modules/alpinejs/dist/cdn.min.js": "static/js/alpine.js",
   });
 
   // Copy Image Folder to /_site
-  eleventyConfig.addPassthroughCopy('src/static/media');
+  eleventyConfig.addPassthroughCopy("src/static/media");
 
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy({
-    'src/static/favicon/favicon.ico': 'favicon.ico',
+    "src/static/favicon/favicon.ico": "favicon.ico",
   });
-  eleventyConfig.addPassthroughCopy('src/static/favicon');
+  eleventyConfig.addPassthroughCopy("src/static/favicon");
 
   // Minify HTML
-  eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
     // Eleventy 1.0+: use this.inputPath and this.outputPath instead
-    if (outputPath.endsWith('.html')) {
+    if (outputPath.endsWith(".html")) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
@@ -115,10 +114,10 @@ export default function (eleventyConfig) {
   // So that we can use .html instead of .njk
   return {
     dir: {
-      input: 'src',
+      input: "src",
     },
     // dataTemplateEngine: 'njk',
-    htmlTemplateEngine: 'njk',
-    markdownTemplateEngine: 'njk',
+    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
   };
-};
+}

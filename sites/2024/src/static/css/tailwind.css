@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @plugin '@tailwindcss/typography';
 
@@ -8,8 +8,8 @@
 
 @theme {
   --font-*: initial;
-  --font-sans: 'Roboto Condensed', 'Arial Condensed', sans-serif;
-  --font-serif: 'Young Serif', serif;
+  --font-sans: "Roboto Condensed", "Arial Condensed", sans-serif;
+  --font-serif: "Young Serif", serif;
 }
 
 /*
@@ -68,7 +68,7 @@
 @layer base {
   /* doesn't exist! */
   .ml-18 {
-    margin-left: 4.5rem/* 72px */;
+    margin-left: 4.5rem /* 72px */;
   }
 }
 
@@ -77,14 +77,15 @@
   /* margin-left: 15em; */
 }
 
-span.prefix, span.suffix {
+span.prefix,
+span.suffix {
   font-weight: normal;
   font-size: 80%;
-  color: hsl(0, 0%, 60%)
+  color: hsl(0, 0%, 60%);
 }
 
 span.unknown {
   font-style: italic;
   font-size: 80%;
-  color: hsl(0, 0%, 80%)
+  color: hsl(0, 0%, 80%);
 }

@@ -4,24 +4,23 @@ The online catalog and results for the African Stock Exhibition of the Basenji C
 
 ## Annual update process...
 
-- [X] clone from previous year
+- [x] clone from previous year
 
-- [X] update year references
+- [x] update year references
 
-- [X] update show logo
+- [x] update show logo
 
-- [X] update event details (show date in `eleventy.js`)
+- [x] update event details (show date in `eleventy.js`)
 
-- [X] acquire dogs.yaml
+- [x] acquire dogs.yaml
 
   > [!NOTE]
   >
   > ASE and Parade entries are _not_ deduplicated, and not alphabetical; having
   > the data come pre-cleaned would help. (Also see sub-bullet!)
+  - [x] remove `address`, `zip`, `phone`, and `email` fields!
 
-  - [X] remove `address`, `zip`, `phone`, and `email` fields!
-
-- [X] add standard extra information per dog (put after name for ease of updating!)
+- [x] add standard extra information per dog (put after name for ease of updating!)
 
   ```
   ase: true
@@ -37,8 +36,7 @@ The online catalog and results for the African Stock Exhibition of the Basenji C
   >
   > Source of raw YAML _could_ theoretically add/calculate these fields.
 
-
-- [X] get images for each dog to `src/static/media/dogs/`, use image ID from ASE registration site (`imageId` in YAML), _not_ the dog’s ID!
+- [x] get images for each dog to `src/static/media/dogs/`, use image ID from ASE registration site (`imageId` in YAML), _not_ the dog’s ID!
 
   ```sh
   pushd src/static/media/dogs # may need to create dogs directory!
@@ -49,20 +47,19 @@ The online catalog and results for the African Stock Exhibition of the Basenji C
   done
   ```
 
-- [X] set up Netlify site (https://app.netlify.com/teams/jaredreisinger/projects)
+- [x] set up Netlify site (https://app.netlify.com/teams/jaredreisinger/projects)
 
-- [X] add CNAME to BCOA basenji.org DNS servers (https://my.a2hosting.com/)
+- [x] add CNAME to BCOA basenji.org DNS servers (https://my.a2hosting.com/)
 
-- [X] get OFA number using AKC registration number: (https://ofa.org/advanced-search/?quicksearch=...)
+- [x] get OFA number using AKC registration number: (https://ofa.org/advanced-search/?quicksearch=...)
 
-- [X] uncomment/update results after event (all only if needed):
+- [x] uncomment/update results after event (all only if needed):
 
   ```
   absent: true
   classPlace: 0
   award: bob|bos
   ```
-
 
 ### Technologies used:
 

@@ -8,7 +8,9 @@
           class="p-5 border rounded-md shadow-md text-gray-800 hover:text-gray-900 bg-orange-100 hover:bg-orange-200"
           href="/dogs/{{ dog.id }}/"
         >
-          <h3 class="my-0 pb-1 font-bold text-xl">{{ info.dogName(dog.name, dog.prefix, dog.suffix) }}</h3>
+          <h3 class="my-0 pb-1 font-bold text-xl">
+            {{ info.dogName(dog.name, dog.prefix, dog.suffix) }}
+          </h3>
         </a>
       {% endif %}
     {% endfor %}

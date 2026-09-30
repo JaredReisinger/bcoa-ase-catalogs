@@ -12,20 +12,36 @@
   registration: HP59205606
   birthdate: 2019-11-23T00:00:00Z
   ancestors:
-    sireSireSire: {name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Kibushi The Oracle, prefix: AM CH}
-    sireSireDam: {name: Avongara Luka}
-    sire: {name: Kibushi Gugu Diospyros, prefix: AM CH, suffix: RN JC CAA SWN SBA RATO CGCA CGCU TKP}
-    sireDamSire: {name: Avongara Tambura}
-    sireDam: {name: Possum Creek's Ngoma}
-    sireDamDam: {name: Briden's Pinstriped Possum, prefix: AM CH}
-    damSireSire: {name: TarSha's Ironwood Carver, prefix: GCH AM CH}
-    damSire: {name: TarSha's Shooting Star At Sundancer, prefix: 'MBIF, GCH DC BIF', suffix: BN RI SC CAA CGCA TKN}
-    damSireDam: {name: TarSha's Half Moon Child, prefix: AM CH}
-    dam: {name: Tarsha's Pure Imagination @ Sundancer, prefix: GCHB DC, suffix: SC CAA CGC}
-    damDamSire: {name: TarSha's Dreamcatcher}
-    damDam: {name: Nowata's Dream About TarSha, prefix: GCH AM CH, suffix: BBHR}
-    damDamDam: {name: Nowata's Hot Causa Desoleil, suffix: BBHR}
+    sireSireSire: { name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR }
+    sireSire: { name: Kibushi The Oracle, prefix: AM CH }
+    sireSireDam: { name: Avongara Luka }
+    sire:
+      {
+        name: Kibushi Gugu Diospyros,
+        prefix: AM CH,
+        suffix: RN JC CAA SWN SBA RATO CGCA CGCU TKP,
+      }
+    sireDamSire: { name: Avongara Tambura }
+    sireDam: { name: Possum Creek's Ngoma }
+    sireDamDam: { name: Briden's Pinstriped Possum, prefix: AM CH }
+    damSireSire: { name: TarSha's Ironwood Carver, prefix: GCH AM CH }
+    damSire:
+      {
+        name: TarSha's Shooting Star At Sundancer,
+        prefix: "MBIF, GCH DC BIF",
+        suffix: BN RI SC CAA CGCA TKN,
+      }
+    damSireDam: { name: TarSha's Half Moon Child, prefix: AM CH }
+    dam:
+      {
+        name: Tarsha's Pure Imagination @ Sundancer,
+        prefix: GCHB DC,
+        suffix: SC CAA CGC,
+      }
+    damDamSire: { name: TarSha's Dreamcatcher }
+    damDam:
+      { name: Nowata's Dream About TarSha, prefix: GCH AM CH, suffix: BBHR }
+    damDamDam: { name: Nowata's Hot Causa Desoleil, suffix: BBHR }
   breeder: Tari Parish, Alyx Tuttle, Theresa Tuttle
   owner: Jon Curby, Lisa Sparrow
   city: Columbia
@@ -46,14 +62,16 @@
   registration: HP57599408
   birthdate: 2018-12-15T00:00:00Z
   ancestors:
-    sireSireSire: {name: Chaanrose Parting Shot}
-    sireSire: {name: Sternhimmels Generis Sui, prefix: AM CAN CH, suffix: SDHR}
-    sireSireDam: {name: S CH Sternhimmels Ad Astra, prefix: FI}
-    sire: {name: Akuaba N Eldorado Chariots Of Fire, prefix: GCH AM CH}
-    sireDamSire: {name: Akuaba In Corduroy, prefix: AM CH, suffix: SDHR}
-    sireDam: {name: Eldorado's Akuaba With One Look, prefix: AM CH, suffix: JC BBHR}
-    sireDamDam: {name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR}
-    dam: {name: Avongara Nilli}
+    sireSireSire: { name: Chaanrose Parting Shot }
+    sireSire:
+      { name: Sternhimmels Generis Sui, prefix: AM CAN CH, suffix: SDHR }
+    sireSireDam: { name: S CH Sternhimmels Ad Astra, prefix: FI }
+    sire: { name: Akuaba N Eldorado Chariots Of Fire, prefix: GCH AM CH }
+    sireDamSire: { name: Akuaba In Corduroy, prefix: AM CH, suffix: SDHR }
+    sireDam:
+      { name: Eldorado's Akuaba With One Look, prefix: AM CH, suffix: JC BBHR }
+    sireDamDam: { name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR }
+    dam: { name: Avongara Nilli }
   breeder: Jon Curby, Kimberly Seifert
   owner: Lisa Sparrow
   city: Harrison
@@ -74,20 +92,20 @@
   registration: HP56469406
   birthdate: 2018-08-31T00:00:00Z
   ancestors:
-    sireSireSire: {name: Avongara Zibili, suffix: RN}
-    sireSire: {name: Avongara Kafi Itzyu HiCotn}
-    sireSireDam: {name: Avongara Roll the Dice}
-    sire: {name: Hicotn's Ticket To Ryde}
-    sireDamSire: {name: Avongara Mine All Mine}
-    sireDam: {name: Hicotn's Last 2 Tickets To Paradise}
-    sireDamDam: {name: HiCotn's Pride & Prejudice, suffix: JC}
-    damSireSire: {name: Eldorado's Echo of an Icon, prefix: AM CH}
-    damSire: {name: Wakan Daydream Believer}
-    damSireDam: {name: Wakan Ifwisheswere Butterflies, prefix: AM CH}
-    dam: {name: Wakan Happy Happy Joy Joy}
-    damDamSire: {name: Wakan Mic Cookie, prefix: AM CH}
-    damDam: {name: Wakan Turned At Twilight}
-    damDamDam: {name: Eldorado's She's A Keeper, prefix: AM CH, suffix: BBHR}
+    sireSireSire: { name: Avongara Zibili, suffix: RN }
+    sireSire: { name: Avongara Kafi Itzyu HiCotn }
+    sireSireDam: { name: Avongara Roll the Dice }
+    sire: { name: Hicotn's Ticket To Ryde }
+    sireDamSire: { name: Avongara Mine All Mine }
+    sireDam: { name: Hicotn's Last 2 Tickets To Paradise }
+    sireDamDam: { name: HiCotn's Pride & Prejudice, suffix: JC }
+    damSireSire: { name: Eldorado's Echo of an Icon, prefix: AM CH }
+    damSire: { name: Wakan Daydream Believer }
+    damSireDam: { name: Wakan Ifwisheswere Butterflies, prefix: AM CH }
+    dam: { name: Wakan Happy Happy Joy Joy }
+    damDamSire: { name: Wakan Mic Cookie, prefix: AM CH }
+    damDam: { name: Wakan Turned At Twilight }
+    damDamDam: { name: Eldorado's She's A Keeper, prefix: AM CH, suffix: BBHR }
   breeder: Toni Ackerman
   owner: Carole Kirk, Denise Vertrees, Laura Gilchrist
   city: Paris
@@ -109,18 +127,18 @@
   registration: HP55024004
   birthdate: 2017-12-29T00:00:00Z
   ancestors:
-    sireSireSire: {name: Avongara Worth The Wait, suffix: JC}
-    sireSire: {name: Avongara Worth The Cash}
-    sire: {name: Avongara Leading The Chase}
-    sireDamSire: {name: Avongara All the Way}
-    sireDam: {name: Avongara Pleasant Surprise}
-    sireDamDam: {name: Avongara All of Me}
-    damSireSire: {name: Avongara Worth The Wait, suffix: JC}
-    damSire: {name: Avongara Worth The Cash}
-    dam: {name: Avongara Crysalis}
-    damDamSire: {name: Avongara Worth The Cash}
-    damDam: {name: Avongara Abrah}
-    damDamDam: {name: Avongara Worth A Look}
+    sireSireSire: { name: Avongara Worth The Wait, suffix: JC }
+    sireSire: { name: Avongara Worth The Cash }
+    sire: { name: Avongara Leading The Chase }
+    sireDamSire: { name: Avongara All the Way }
+    sireDam: { name: Avongara Pleasant Surprise }
+    sireDamDam: { name: Avongara All of Me }
+    damSireSire: { name: Avongara Worth The Wait, suffix: JC }
+    damSire: { name: Avongara Worth The Cash }
+    dam: { name: Avongara Crysalis }
+    damDamSire: { name: Avongara Worth The Cash }
+    damDam: { name: Avongara Abrah }
+    damDamDam: { name: Avongara Worth A Look }
   breeder: Jeffrey Gillespie
   owner: Jeffrey Gillespie, Sue Kite
   city: Ashtabula
@@ -141,15 +159,15 @@
   registration: HP55430301
   birthdate: 2018-04-22T00:00:00Z
   ancestors:
-    sireSire: {name: Avongara Gangura}
-    sire: {name: Avongara Zindiko Brushy Run, suffix: CDX CGC}
-    sireDam: {name: Avongara Zamee}
-    damSire: {name: Avongara Zibili, suffix: RN}
-    damSireDam: {name: Avongara Luka}
-    dam: {name: Avongara Zhanna, suffix: RN TKN}
-    damDamSire: {name: Avongara All the Way}
-    damDam: {name: Avongara Pleasant Surprise}
-    damDamDam: {name: Avongara All of Me}
+    sireSire: { name: Avongara Gangura }
+    sire: { name: Avongara Zindiko Brushy Run, suffix: CDX CGC }
+    sireDam: { name: Avongara Zamee }
+    damSire: { name: Avongara Zibili, suffix: RN }
+    damSireDam: { name: Avongara Luka }
+    dam: { name: Avongara Zhanna, suffix: RN TKN }
+    damDamSire: { name: Avongara All the Way }
+    damDam: { name: Avongara Pleasant Surprise }
+    damDamDam: { name: Avongara All of Me }
   breeder: Jean D. Martin
   owner: Laurie Stargill, Jean D. Martin
   city: Tully
@@ -170,20 +188,27 @@
   registration: HP59352501
   birthdate: 2019-12-27T00:00:00Z
   ancestors:
-    sireSireSire: {name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Kibushi The Oracle, prefix: AM CH}
-    sireSireDam: {name: Avongara Luka}
-    sire: {name: Kibushi Gugu Diospyros, prefix: AM CH, suffix: RN JC CAA SWN SBA RATO CGCA CGCU TKP}
-    sireDamSire: {name: Avongara Tambura}
-    sireDam: {name: Possum Creek's Ngoma}
-    sireDamDam: {name: Briden's Pinstriped Possum, prefix: AM CH}
-    damSireSire: {name: African Rainbow's Elewa-Ebo, prefix: HDERBYWINNER H(JG) CH}
-    damSire: {name: Kincha's The Striped Fighter, prefix: AM CH, suffix: SDHR}
-    damSireDam: {name: Kincha's Mixed With Magic}
-    dam: {name: Possum Creek's Flying Fortress, prefix: AM CH}
-    damDamSire: {name: Spring Willows Reaction Time, prefix: AM CH}
-    damDam: {name: Spring Willow's Race For The Chase, prefix: AM CH}
-    damDamDam: {name: Teazer Khani's I'M Coming Out, prefix: AM CH, suffix: JC}
+    sireSireSire: { name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR }
+    sireSire: { name: Kibushi The Oracle, prefix: AM CH }
+    sireSireDam: { name: Avongara Luka }
+    sire:
+      {
+        name: Kibushi Gugu Diospyros,
+        prefix: AM CH,
+        suffix: RN JC CAA SWN SBA RATO CGCA CGCU TKP,
+      }
+    sireDamSire: { name: Avongara Tambura }
+    sireDam: { name: Possum Creek's Ngoma }
+    sireDamDam: { name: Briden's Pinstriped Possum, prefix: AM CH }
+    damSireSire:
+      { name: African Rainbow's Elewa-Ebo, prefix: HDERBYWINNER H(JG) CH }
+    damSire: { name: Kincha's The Striped Fighter, prefix: AM CH, suffix: SDHR }
+    damSireDam: { name: Kincha's Mixed With Magic }
+    dam: { name: Possum Creek's Flying Fortress, prefix: AM CH }
+    damDamSire: { name: Spring Willows Reaction Time, prefix: AM CH }
+    damDam: { name: Spring Willow's Race For The Chase, prefix: AM CH }
+    damDamDam:
+      { name: Teazer Khani's I'M Coming Out, prefix: AM CH, suffix: JC }
   breeder: Carole Kirk & Laura Owen
   owner: Denise Vertrees, Barbara Reisinger, Jon Curby, Laura Owen
   city: Paris
@@ -205,18 +230,31 @@
   registration: HP55574201
   birthdate: 2017-12-10T00:00:00Z
   ancestors:
-    sireSireSire: {name: Akuaba N Eldorado Bungle In The Jungle, prefix: GCH AM CH, suffix: SDHR}
-    sireSire: {name: Eldorado N Akuaba Dream Lover, prefix: GCH AM CH, suffix: SDHR}
-    sireSireDam: {name: Eldorado's Mirror Mirror on the Wall, prefix: AM CH, suffix: BBHR}
-    sire: {name: Timar Kaleonahe's Night Mood, prefix: AM CH}
-    sireDamSire: {name: Sadikis Dreamland Delight}
-    sireDam: {name: Timar's Morning Mist Of Relyn, prefix: AKC UKC CKC CH}
-    sireDamDam: {name: Timar's Reminisce, prefix: AKC UKC CH}
-    damSire: {name: Avongara Ojo}
-    dam: {name: Kaleonahe's Ancient Chinese Secret, prefix: FC, suffix: SC}
-    damDamSire: {name: C-Quest's Master Of Disguise, prefix: AM CH}
-    damDam: {name: Eldorado's Quality of Mercy at Kaleonahe, prefix: DC, suffix: SC}
-    damDamDam: {name: Eldorado's Scarlett To Saqqara, prefix: AM CH & UIC-INT CH}
+    sireSireSire:
+      {
+        name: Akuaba N Eldorado Bungle In The Jungle,
+        prefix: GCH AM CH,
+        suffix: SDHR,
+      }
+    sireSire:
+      { name: Eldorado N Akuaba Dream Lover, prefix: GCH AM CH, suffix: SDHR }
+    sireSireDam:
+      {
+        name: Eldorado's Mirror Mirror on the Wall,
+        prefix: AM CH,
+        suffix: BBHR,
+      }
+    sire: { name: Timar Kaleonahe's Night Mood, prefix: AM CH }
+    sireDamSire: { name: Sadikis Dreamland Delight }
+    sireDam: { name: Timar's Morning Mist Of Relyn, prefix: AKC UKC CKC CH }
+    sireDamDam: { name: Timar's Reminisce, prefix: AKC UKC CH }
+    damSire: { name: Avongara Ojo }
+    dam: { name: Kaleonahe's Ancient Chinese Secret, prefix: FC, suffix: SC }
+    damDamSire: { name: C-Quest's Master Of Disguise, prefix: AM CH }
+    damDam:
+      { name: Eldorado's Quality of Mercy at Kaleonahe, prefix: DC, suffix: SC }
+    damDamDam:
+      { name: Eldorado's Scarlett To Saqqara, prefix: AM CH & UIC-INT CH }
   breeder: Kyle Cabral, Stephen Strobel
   owner: Jean D. Martin
   city: Tully
@@ -237,19 +275,27 @@
   registration: HP57247706
   birthdate: 2019-01-02T00:00:00Z
   ancestors:
-    sireSireSire: {name: Sonbar's Sonic Shockwave, prefix: UCD URO1 BIS U-CH HIT MBISS GCH, suffix: CD RAE OA OAJ AJP SDHR}
-    sireSire: {name: Sonbar's Justa Determined Talker At Jaiye, prefix: GCH AM CH}
-    sireSireDam: {name: Sonbar's Table Talk, prefix: GCH AM CH, suffix: RA BBHR}
-    sire: {name: Sonbar's Justa Grand Torino, prefix: GCHB AM CH}
-    sireDamSire: {name: Sonbar's Z for Zorro, prefix: AM CH, suffix: THDD CGC}
-    sireDam: {name: Sonbar's, prefix: UKC CH, suffix: BMW RN RATN}
-    sireDamDam: {name: Sonbar's Yoko Yodel, prefix: AM CH}
-    damSire: {name: Avongara Rikita}
-    damSireDam: {name: Avongara Luka}
-    dam: {name: New World Midsummer Night's Dream}
-    damDamSire: {name: Maverick of Keltwyn, prefix: AM CH AB, suffix: JC GRC FCH}
-    damDam: {name: New World Wild Age, prefix: AM CH}
-    damDamDam: {name: New World Heart Like A Wheel}
+    sireSireSire:
+      {
+        name: Sonbar's Sonic Shockwave,
+        prefix: UCD URO1 BIS U-CH HIT MBISS GCH,
+        suffix: CD RAE OA OAJ AJP SDHR,
+      }
+    sireSire:
+      { name: Sonbar's Justa Determined Talker At Jaiye, prefix: GCH AM CH }
+    sireSireDam:
+      { name: Sonbar's Table Talk, prefix: GCH AM CH, suffix: RA BBHR }
+    sire: { name: Sonbar's Justa Grand Torino, prefix: GCHB AM CH }
+    sireDamSire: { name: Sonbar's Z for Zorro, prefix: AM CH, suffix: THDD CGC }
+    sireDam: { name: Sonbar's, prefix: UKC CH, suffix: BMW RN RATN }
+    sireDamDam: { name: Sonbar's Yoko Yodel, prefix: AM CH }
+    damSire: { name: Avongara Rikita }
+    damSireDam: { name: Avongara Luka }
+    dam: { name: New World Midsummer Night's Dream }
+    damDamSire:
+      { name: Maverick of Keltwyn, prefix: AM CH AB, suffix: JC GRC FCH }
+    damDam: { name: New World Wild Age, prefix: AM CH }
+    damDamDam: { name: New World Heart Like A Wheel }
   breeder: Karla Schreiber
   owner: Pat Wand, Karla Schreiber
   city: Milwaukee
@@ -273,20 +319,26 @@
   registration: HP31592701
   birthdate: 2008-07-02T00:00:00Z
   ancestors:
-    sireSireSire: {name: Reveille Boutonniere, prefix: AM CH, suffix: JC SDHR}
-    sireSire: {name: C-Quests Point Blank, prefix: AM CH, suffix: SDHR}
-    sireSireDam: {name: Rafikis Mass Expectations, prefix: AM CH, suffix: JC BBHR}
-    sire: {name: Jerlin's Our Zuri Pupin MC LCX SGRC3 SORC LCM VLCM8, prefix: GCH DC}
-    sireDamSire: {name: Jerlin's General Patton, prefix: AM CH, suffix: SDHR}
-    sireDam: {name: Jerlin's Lyric In Black, prefix: AM CH, suffix: BBHR}
-    sireDamDam: {name: Princess Chinyamarindi, prefix: AM CH AB, suffix: JC FCH BBHR}
-    damSireSire: {name: Avongara Bahati Nasibu}
-    damSire: {name: Avongara Imba Tena, suffix: SDHR}
-    damSireDam: {name: Avongara N'Gola}
-    dam: {name: Kibushi Jadaka's Sonata}
-    damDamSire: {name: Tamba Kazor Abmis Nyanga, prefix: AM CH}
-    damDam: {name: Signet French Silk, prefix: AM CH, suffix: JC BBHR}
-    damDamDam: {name: Signet Fleur De Lis, prefix: AM CH}
+    sireSireSire: { name: Reveille Boutonniere, prefix: AM CH, suffix: JC SDHR }
+    sireSire: { name: C-Quests Point Blank, prefix: AM CH, suffix: SDHR }
+    sireSireDam:
+      { name: Rafikis Mass Expectations, prefix: AM CH, suffix: JC BBHR }
+    sire:
+      {
+        name: Jerlin's Our Zuri Pupin MC LCX SGRC3 SORC LCM VLCM8,
+        prefix: GCH DC,
+      }
+    sireDamSire: { name: Jerlin's General Patton, prefix: AM CH, suffix: SDHR }
+    sireDam: { name: Jerlin's Lyric In Black, prefix: AM CH, suffix: BBHR }
+    sireDamDam:
+      { name: Princess Chinyamarindi, prefix: AM CH AB, suffix: JC FCH BBHR }
+    damSireSire: { name: Avongara Bahati Nasibu }
+    damSire: { name: Avongara Imba Tena, suffix: SDHR }
+    damSireDam: { name: Avongara N'Gola }
+    dam: { name: Kibushi Jadaka's Sonata }
+    damDamSire: { name: Tamba Kazor Abmis Nyanga, prefix: AM CH }
+    damDam: { name: Signet French Silk, prefix: AM CH, suffix: JC BBHR }
+    damDamDam: { name: Signet Fleur De Lis, prefix: AM CH }
   breeder: Janice Kahl, Jon Curby
   owner: David Kahl, Janice Kahl
   city: Auxvasse
@@ -310,14 +362,16 @@
   registration: HP57599404
   birthdate: 2018-12-15T00:00:00Z
   ancestors:
-    sireSireSire: {name: Chaanrose Parting Shot}
-    sireSire: {name: Sternhimmels Generis Sui, prefix: AM CAN CH, suffix: SDHR}
-    sireSireDam: {name: S CH Sternhimmels Ad Astra, prefix: FI}
-    sire: {name: Akuaba N Eldorado Chariots Of Fire, prefix: GCH AM CH}
-    sireDamSire: {name: Akuaba In Corduroy, prefix: AM CH, suffix: SDHR}
-    sireDam: {name: Eldorado's Akuaba With One Look, prefix: AM CH, suffix: JC BBHR}
-    sireDamDam: {name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR}
-    dam: {name: Avongara Nilli}
+    sireSireSire: { name: Chaanrose Parting Shot }
+    sireSire:
+      { name: Sternhimmels Generis Sui, prefix: AM CAN CH, suffix: SDHR }
+    sireSireDam: { name: S CH Sternhimmels Ad Astra, prefix: FI }
+    sire: { name: Akuaba N Eldorado Chariots Of Fire, prefix: GCH AM CH }
+    sireDamSire: { name: Akuaba In Corduroy, prefix: AM CH, suffix: SDHR }
+    sireDam:
+      { name: Eldorado's Akuaba With One Look, prefix: AM CH, suffix: JC BBHR }
+    sireDamDam: { name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR }
+    dam: { name: Avongara Nilli }
   breeder: Jon Curby & Kimberly Siefert
   owner: Jessica Ryno & Jon Curby
   city: Florissant
@@ -340,15 +394,15 @@
   registration: HP42875001
   birthdate: 2011-12-23T00:00:00Z
   ancestors:
-    sire: {name: Avongara Zibili, suffix: RN}
-    sireDam: {name: Avongara Luka}
-    damSireSire: {name: Avongara Kasabu}
-    damSire: {name: Avongara All the Way}
-    damSireDam: {name: Avongara Mwata of Brushy Run}
-    dam: {name: Avongara Pleasant Surprise}
-    damDamSire: {name: Avongara Kasabu}
-    damDam: {name: Avongara All of Me}
-    damDamDam: {name: Avongara Mwata of Brushy Run}
+    sire: { name: Avongara Zibili, suffix: RN }
+    sireDam: { name: Avongara Luka }
+    damSireSire: { name: Avongara Kasabu }
+    damSire: { name: Avongara All the Way }
+    damSireDam: { name: Avongara Mwata of Brushy Run }
+    dam: { name: Avongara Pleasant Surprise }
+    damDamSire: { name: Avongara Kasabu }
+    damDam: { name: Avongara All of Me }
+    damDamDam: { name: Avongara Mwata of Brushy Run }
   breeder: Jean D. Martin, Jeffrey J. Gillespie
   owner: Jean D. Martin, Jeffrey J. Gillespie
   city: Tully
@@ -369,20 +423,28 @@
   registration: HP64444702
   birthdate: 2022-02-14T00:00:00Z
   ancestors:
-    sireSireSire: {name: Eldorado N Akuaba Never Say Never, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Eldorado's Akuaba One More Time, prefix: GCH AM CH, suffix: SDHR}
-    sireSireDam: {name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR}
-    sire: {name: Spring Willow's Six Dollar Hollar, prefix: AM CH}
-    sireDamSire: {name: Kincha's The Striped Fighter, prefix: AM CH, suffix: SDHR}
-    sireDam: {name: Spring Willow's Guilty By Association}
-    sireDamDam: {name: Spring Willow's Airtight Alibi, prefix: AM CH}
-    damSireSire: {name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR}
-    damSire: {name: Kibushi The Oracle, prefix: AM CH}
-    damSireDam: {name: Avongara Luka}
-    dam: {name: Possum Creek's Sangbani, prefix: 'GCHB AM CH, IABAC NAT/INT CH', suffix: AOM}
-    damDamSire: {name: Avongara Tambura}
-    damDam: {name: Possum Creek's Ngoma}
-    damDamDam: {name: Briden's Pinstriped Possum, prefix: AM CH}
+    sireSireSire:
+      { name: Eldorado N Akuaba Never Say Never, prefix: AM CH, suffix: SDHR }
+    sireSire:
+      { name: Eldorado's Akuaba One More Time, prefix: GCH AM CH, suffix: SDHR }
+    sireSireDam: { name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR }
+    sire: { name: Spring Willow's Six Dollar Hollar, prefix: AM CH }
+    sireDamSire:
+      { name: Kincha's The Striped Fighter, prefix: AM CH, suffix: SDHR }
+    sireDam: { name: Spring Willow's Guilty By Association }
+    sireDamDam: { name: Spring Willow's Airtight Alibi, prefix: AM CH }
+    damSireSire: { name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR }
+    damSire: { name: Kibushi The Oracle, prefix: AM CH }
+    damSireDam: { name: Avongara Luka }
+    dam:
+      {
+        name: Possum Creek's Sangbani,
+        prefix: "GCHB AM CH, IABAC NAT/INT CH",
+        suffix: AOM,
+      }
+    damDamSire: { name: Avongara Tambura }
+    damDam: { name: Possum Creek's Ngoma }
+    damDamDam: { name: Briden's Pinstriped Possum, prefix: AM CH }
   breeder: Carole Kirk, Denise Vertrees
   owner: Carole Kirk, Denise Vertrees
   city: Paris
@@ -406,18 +468,36 @@
   registration: HP61808904
   birthdate: 2021-01-13T00:00:00Z
   ancestors:
-    sireSireSire: {name: C-Quest's Just Push Play, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Reveille Push The Limit To, prefix: GCH AM CH, suffix: MV JC SDHR}
-    sireSireDam: {name: Reveille Accord, prefix: AM CH, suffix: BBHR}
-    sire: {name: Dark Moon's Bada Bing!, prefix: AM CH}
-    sireDamSire: {name: Jokuba C-Quest First Round Knock Out, prefix: GCH AM CH, suffix: SDHR}
-    sireDam: {name: Dark Moon's Barking Bad, prefix: GCHS AM CH, suffix: JC}
-    sireDamDam: {name: Dark Moon's Tilt-A-Whirl, prefix: GCH AM CH, suffix: BBHR}
-    damSireSire: {name: Berimo's Roustabout, prefix: DC, suffix: SC SDHR}
-    damSire: {name: Penda Taji's Tri-Umphant One, prefix: AM CAN CH, suffix: JC SDHR}
-    damSireDam: {name: Taji's Cinnamon Swirl, prefix: AM CH, suffix: BBHR}
-    dam: {name: Taji's hAfrican Queen Disa, prefix: DC, suffix: SC CA BCAT CGCA CGCU TKA RATM FDX}
-    damDam: {name: Avongara Naziki, prefix: FC, suffix: SC RATN}
+    sireSireSire:
+      { name: C-Quest's Just Push Play, prefix: AM CH, suffix: SDHR }
+    sireSire:
+      {
+        name: Reveille Push The Limit To,
+        prefix: GCH AM CH,
+        suffix: MV JC SDHR,
+      }
+    sireSireDam: { name: Reveille Accord, prefix: AM CH, suffix: BBHR }
+    sire: { name: Dark Moon's Bada Bing!, prefix: AM CH }
+    sireDamSire:
+      {
+        name: Jokuba C-Quest First Round Knock Out,
+        prefix: GCH AM CH,
+        suffix: SDHR,
+      }
+    sireDam: { name: Dark Moon's Barking Bad, prefix: GCHS AM CH, suffix: JC }
+    sireDamDam:
+      { name: Dark Moon's Tilt-A-Whirl, prefix: GCH AM CH, suffix: BBHR }
+    damSireSire: { name: Berimo's Roustabout, prefix: DC, suffix: SC SDHR }
+    damSire:
+      { name: Penda Taji's Tri-Umphant One, prefix: AM CAN CH, suffix: JC SDHR }
+    damSireDam: { name: Taji's Cinnamon Swirl, prefix: AM CH, suffix: BBHR }
+    dam:
+      {
+        name: Taji's hAfrican Queen Disa,
+        prefix: DC,
+        suffix: SC CA BCAT CGCA CGCU TKA RATM FDX,
+      }
+    damDam: { name: Avongara Naziki, prefix: FC, suffix: SC RATN }
   breeder: Barbara and Jared Reisinger
   owner: Barbara Reisinger, Meredith & Chris Dennis, Michael Work
   city: Scottsdale
@@ -439,20 +519,28 @@
   registration: HP64444704
   birthdate: 2022-02-14T00:00:00Z
   ancestors:
-    sireSireSire: {name: Eldorado N Akuaba Never Say Never, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Eldorado's Akuaba One More Time, prefix: GCH AM CH, suffix: SDHR}
-    sireSireDam: {name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR}
-    sire: {name: Spring Willow's Six Dollar Hollar, prefix: AM CH}
-    sireDamSire: {name: Kincha's The Striped Fighter, prefix: AM CH, suffix: SDHR}
-    sireDam: {name: Spring Willow's Guilty By Association}
-    sireDamDam: {name: Spring Willow's Airtight Alibi, prefix: AM CH}
-    damSireSire: {name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR}
-    damSire: {name: Kibushi The Oracle, prefix: AM CH}
-    damSireDam: {name: Avongara Luka}
-    dam: {name: Possum Creek's Sangbani, prefix: 'GCHB AM CH, IABAC NAT/INT CH', suffix: AOM}
-    damDamSire: {name: Avongara Tambura}
-    damDam: {name: Possum Creek's Ngoma}
-    damDamDam: {name: Briden's Pinstriped Possum, prefix: AM CH}
+    sireSireSire:
+      { name: Eldorado N Akuaba Never Say Never, prefix: AM CH, suffix: SDHR }
+    sireSire:
+      { name: Eldorado's Akuaba One More Time, prefix: GCH AM CH, suffix: SDHR }
+    sireSireDam: { name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR }
+    sire: { name: Spring Willow's Six Dollar Hollar, prefix: AM CH }
+    sireDamSire:
+      { name: Kincha's The Striped Fighter, prefix: AM CH, suffix: SDHR }
+    sireDam: { name: Spring Willow's Guilty By Association }
+    sireDamDam: { name: Spring Willow's Airtight Alibi, prefix: AM CH }
+    damSireSire: { name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR }
+    damSire: { name: Kibushi The Oracle, prefix: AM CH }
+    damSireDam: { name: Avongara Luka }
+    dam:
+      {
+        name: Possum Creek's Sangbani,
+        prefix: "GCHB AM CH, IABAC NAT/INT CH",
+        suffix: AOM,
+      }
+    damDamSire: { name: Avongara Tambura }
+    damDam: { name: Possum Creek's Ngoma }
+    damDamDam: { name: Briden's Pinstriped Possum, prefix: AM CH }
   breeder: Carole Kirk and Denise Vertrees
   owner: Jo Helen Cronenberger, Denise Vertrees, Carole Kirk
   city: Kyle
@@ -476,18 +564,25 @@
   registration: P947-841 (UKC)
   birthdate: 2020-08-08T00:00:00Z
   ancestors:
-    sireSireSire: {name: Changa's Dan Patch, prefix: CH, suffix: JC}
-    sireSire: {name: Zindika Svengali Determinator, prefix: DC Can. CH, suffix: SC}
-    sireSireDam: {name: D's Reason to Believe SC FCh, prefix: CH}
-    sire: {name: Dharian's Sweet Determination}
-    sireDamSire: {name: Nyanga Signet Sweet William, prefix: CH, suffix: JC}
-    sireDam: {name: Dharian's Sweet Georgia Brown, prefix: CH}
-    sireDamDam: {name: Dharian's Obsidian, prefix: Int. Multi-CH, suffix: JC TT}
-    damSire: {name: Avuvi Enagnon, suffix: RATI}
-    dam: {name: Dharian's Good Witch, prefix: Int. SR CH, suffix: RATI}
-    damDamSire: {name: Am Can Int UKC CH AB-Rafiki The Icon of Cool}
-    damDam: {name: Dharian's Rhiannon, prefix: Int. Multi-CH AI NV, suffix: JC SWN RATI RATN}
-    damDamDam: {name: Dharian's Evening Star, prefix: Int. BA CH, suffix: JC}
+    sireSireSire: { name: Changa's Dan Patch, prefix: CH, suffix: JC }
+    sireSire:
+      { name: Zindika Svengali Determinator, prefix: DC Can. CH, suffix: SC }
+    sireSireDam: { name: D's Reason to Believe SC FCh, prefix: CH }
+    sire: { name: Dharian's Sweet Determination }
+    sireDamSire: { name: Nyanga Signet Sweet William, prefix: CH, suffix: JC }
+    sireDam: { name: Dharian's Sweet Georgia Brown, prefix: CH }
+    sireDamDam:
+      { name: Dharian's Obsidian, prefix: Int. Multi-CH, suffix: JC TT }
+    damSire: { name: Avuvi Enagnon, suffix: RATI }
+    dam: { name: Dharian's Good Witch, prefix: Int. SR CH, suffix: RATI }
+    damDamSire: { name: Am Can Int UKC CH AB-Rafiki The Icon of Cool }
+    damDam:
+      {
+        name: Dharian's Rhiannon,
+        prefix: Int. Multi-CH AI NV,
+        suffix: JC SWN RATI RATN,
+      }
+    damDamDam: { name: Dharian's Evening Star, prefix: Int. BA CH, suffix: JC }
   breeder: S. Anne Humphreys
   owner: S. Anne Humphreys
   city: Wolfforth
@@ -510,14 +605,16 @@
   registration: HP34532101
   birthdate: 2008-12-03T00:00:00Z
   ancestors:
-    sireSireSire: {name: Juju's Pistol Pete, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Reveille Boutonniere, prefix: AM CH, suffix: JC SDHR}
-    sireSireDam: {name: Serengeti Reveille Larkspur, prefix: AM CH, suffix: BBHR}
-    sire: {name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR}
-    sireDamSire: {name: Rafikis Great Expectations, prefix: AM CH, suffix: CD FCH}
-    sireDam: {name: Rafikis Mass Expectations, prefix: AM CH, suffix: JC BBHR}
-    sireDamDam: {name: Ruby Jean Delsenji of Woz}
-    dam: {name: Avongara Luka}
+    sireSireSire: { name: Juju's Pistol Pete, prefix: AM CH, suffix: SDHR }
+    sireSire: { name: Reveille Boutonniere, prefix: AM CH, suffix: JC SDHR }
+    sireSireDam:
+      { name: Serengeti Reveille Larkspur, prefix: AM CH, suffix: BBHR }
+    sire: { name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR }
+    sireDamSire:
+      { name: Rafikis Great Expectations, prefix: AM CH, suffix: CD FCH }
+    sireDam: { name: Rafikis Mass Expectations, prefix: AM CH, suffix: JC BBHR }
+    sireDamDam: { name: Ruby Jean Delsenji of Woz }
+    dam: { name: Avongara Luka }
   breeder: Jon Curby
   owner: Jon Curby
   city: Columbia
@@ -538,18 +635,18 @@
   registration: HP52966604
   birthdate: 2017-01-05T00:00:00Z
   ancestors:
-    sireSireSire: {name: Avongara Worth The Wait, suffix: JC}
-    sireSire: {name: Avongara Worth The Cash}
-    sireSireDam: {name: Avongara Tribal Singer}
-    sire: {name: Avongara Leading The Chase}
-    sireDamSire: {name: Avongara All the Way}
-    sireDam: {name: Avongara Pleasant Surprise}
-    sireDamDam: {name: Avongara All of Me}
-    damSire: {name: Avongara Tambura}
-    dam: {name: Avongara Worth Knowing}
-    damDamSire: {name: Avongara Worth The Wait, suffix: JC}
-    damDam: {name: Avongara Know Your Worth}
-    damDamDam: {name: Avongara Tribal Singer}
+    sireSireSire: { name: Avongara Worth The Wait, suffix: JC }
+    sireSire: { name: Avongara Worth The Cash }
+    sireSireDam: { name: Avongara Tribal Singer }
+    sire: { name: Avongara Leading The Chase }
+    sireDamSire: { name: Avongara All the Way }
+    sireDam: { name: Avongara Pleasant Surprise }
+    sireDamDam: { name: Avongara All of Me }
+    damSire: { name: Avongara Tambura }
+    dam: { name: Avongara Worth Knowing }
+    damDamSire: { name: Avongara Worth The Wait, suffix: JC }
+    damDam: { name: Avongara Know Your Worth }
+    damDamDam: { name: Avongara Tribal Singer }
   breeder: Sue Kite, Jeffrey Gillespie
   owner: Jeffrey Gillespie, Sue Kite
   city: Ashtabula
@@ -570,20 +667,28 @@
   registration: HP64444703
   birthdate: 2022-02-14T00:00:00Z
   ancestors:
-    sireSireSire: {name: Eldorado N Akuaba Never Say Never, prefix: AM CH, suffix: SDHR}
-    sireSire: {name: Eldorado's Akuaba One More Time, prefix: GCH AM CH, suffix: SDHR}
-    sireSireDam: {name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR}
-    sire: {name: Spring Willow's Six Dollar Hollar, prefix: AM CH}
-    sireDamSire: {name: Kincha's The Striped Fighter, prefix: AM CH, suffix: SDHR}
-    sireDam: {name: Spring Willow's Guilty By Association}
-    sireDamDam: {name: Spring Willow's Airtight Alibi, prefix: AM CH}
-    damSireSire: {name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR}
-    damSire: {name: Kibushi The Oracle, prefix: AM CH}
-    damSireDam: {name: Avongara Luka}
-    dam: {name: Possum Creek's Sangbani, prefix: 'GCHB AM CH, IABAC NAT/INT CH', suffix: AOM}
-    damDamSire: {name: Avongara Tambura}
-    damDam: {name: Possum Creek's Ngoma}
-    damDamDam: {name: Briden's Pinstriped Possum, prefix: AM CH}
+    sireSireSire:
+      { name: Eldorado N Akuaba Never Say Never, prefix: AM CH, suffix: SDHR }
+    sireSire:
+      { name: Eldorado's Akuaba One More Time, prefix: GCH AM CH, suffix: SDHR }
+    sireSireDam: { name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR }
+    sire: { name: Spring Willow's Six Dollar Hollar, prefix: AM CH }
+    sireDamSire:
+      { name: Kincha's The Striped Fighter, prefix: AM CH, suffix: SDHR }
+    sireDam: { name: Spring Willow's Guilty By Association }
+    sireDamDam: { name: Spring Willow's Airtight Alibi, prefix: AM CH }
+    damSireSire: { name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR }
+    damSire: { name: Kibushi The Oracle, prefix: AM CH }
+    damSireDam: { name: Avongara Luka }
+    dam:
+      {
+        name: Possum Creek's Sangbani,
+        prefix: "GCHB AM CH, IABAC NAT/INT CH",
+        suffix: AOM,
+      }
+    damDamSire: { name: Avongara Tambura }
+    damDam: { name: Possum Creek's Ngoma }
+    damDamDam: { name: Briden's Pinstriped Possum, prefix: AM CH }
   breeder: Carole L. Kirk, Denise A. Vertrees
   owner: Nancy Craigie, Carole L. Kirk
   city: Elberta
@@ -607,18 +712,20 @@
   registration: HP59556602
   birthdate: 2019-11-05T00:00:00Z
   ancestors:
-    sireSireSire: {name: Fantasia's Fandango, prefix: AM CAN CH}
-    sireSire: {name: Baru's King Triton of Jumoke, prefix: AM CH}
-    sireSireDam: {name: Jumoke's Red Vixen Of Baru, prefix: AM CH, suffix: SC}
-    sire: {name: Baru Khani's Humuhumunukunukuapua'A, prefix: AM CH}
-    sireDamSire: {name: Jumoke Khani Baru Rumba, prefix: GCH AM CH, suffix: RN}
-    sireDam: {name: Khanis Icarly Baru, prefix: GCH AM CH}
-    sireDamDam: {name: Teazer's Skylark, prefix: AM CH, suffix: BBHR}
-    damSire: {name: NTomba Mosika, prefix: FC, suffix: RI SC NA}
-    dam: {name: Jumoke Motema Preciosa}
-    damDamSire: {name: Jumoke's Arazi Re, prefix: AM CH, suffix: SDHR}
-    damDam: {name: Jumoke's Superfecta, prefix: GCH AM CH}
-    damDamDam: {name: Jumokebaru Mischievous Sprite, prefix: AM CH, suffix: BBHR}
+    sireSireSire: { name: Fantasia's Fandango, prefix: AM CAN CH }
+    sireSire: { name: Baru's King Triton of Jumoke, prefix: AM CH }
+    sireSireDam: { name: Jumoke's Red Vixen Of Baru, prefix: AM CH, suffix: SC }
+    sire: { name: Baru Khani's Humuhumunukunukuapua'A, prefix: AM CH }
+    sireDamSire:
+      { name: Jumoke Khani Baru Rumba, prefix: GCH AM CH, suffix: RN }
+    sireDam: { name: Khanis Icarly Baru, prefix: GCH AM CH }
+    sireDamDam: { name: Teazer's Skylark, prefix: AM CH, suffix: BBHR }
+    damSire: { name: NTomba Mosika, prefix: FC, suffix: RI SC NA }
+    dam: { name: Jumoke Motema Preciosa }
+    damDamSire: { name: Jumoke's Arazi Re, prefix: AM CH, suffix: SDHR }
+    damDam: { name: Jumoke's Superfecta, prefix: GCH AM CH }
+    damDamDam:
+      { name: Jumokebaru Mischievous Sprite, prefix: AM CH, suffix: BBHR }
   breeder: Bryan & Laurie Gregory
   owner: Bryan & Laurie Gregory
   city: Woodinville
@@ -640,14 +747,15 @@
   registration: HP36160002
   birthdate: 2009-11-25T00:00:00Z
   ancestors:
-    sire: {name: Avongara Tambura}
-    damSireSire: {name: Possum Creek's Pipe Dream}
-    damSire: {name: Briden's Guilty Pleasures, prefix: AM CH}
-    damSireDam: {name: Bridens I Dream of Genie}
-    dam: {name: Briden's Pinstriped Possum, prefix: AM CH}
-    damDamSire: {name: Klassic's Eye Of The Tiger, prefix: AM CAN CH, suffix: SDHR}
-    damDam: {name: Klassic's A Star In Stripes, prefix: AM CAN RUS POL INT CH}
-    damDamDam: {name: Klassic's Miss Devious, prefix: CAN CH, suffix: BBHR}
+    sire: { name: Avongara Tambura }
+    damSireSire: { name: Possum Creek's Pipe Dream }
+    damSire: { name: Briden's Guilty Pleasures, prefix: AM CH }
+    damSireDam: { name: Bridens I Dream of Genie }
+    dam: { name: Briden's Pinstriped Possum, prefix: AM CH }
+    damDamSire:
+      { name: Klassic's Eye Of The Tiger, prefix: AM CAN CH, suffix: SDHR }
+    damDam: { name: Klassic's A Star In Stripes, prefix: AM CAN RUS POL INT CH }
+    damDamDam: { name: Klassic's Miss Devious, prefix: CAN CH, suffix: BBHR }
   breeder: Carole Kirk, Denise Vertrees
   owner: Carole Kirk, Denise Vertrees
   city: Paris
@@ -670,14 +778,16 @@
   registration: HP57599406
   birthdate: 2018-12-15T00:00:00Z
   ancestors:
-    sireSireSire: {name: Chaanrose Parting Shot}
-    sireSire: {name: Sternhimmels Generis Sui, prefix: AM CAN CH, suffix: SDHR}
-    sireSireDam: {name: S CH Sternhimmels Ad Astra, prefix: FI}
-    sire: {name: Akuaba N Eldorado Chariots Of Fire, prefix: GCH AM CH}
-    sireDamSire: {name: Akuaba In Corduroy, prefix: AM CH, suffix: SDHR}
-    sireDam: {name: Eldorado's Akuaba With One Look, prefix: AM CH, suffix: JC BBHR}
-    sireDamDam: {name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR}
-    dam: {name: Avongara Nilli}
+    sireSireSire: { name: Chaanrose Parting Shot }
+    sireSire:
+      { name: Sternhimmels Generis Sui, prefix: AM CAN CH, suffix: SDHR }
+    sireSireDam: { name: S CH Sternhimmels Ad Astra, prefix: FI }
+    sire: { name: Akuaba N Eldorado Chariots Of Fire, prefix: GCH AM CH }
+    sireDamSire: { name: Akuaba In Corduroy, prefix: AM CH, suffix: SDHR }
+    sireDam:
+      { name: Eldorado's Akuaba With One Look, prefix: AM CH, suffix: JC BBHR }
+    sireDamDam: { name: Eldorado's Ooh La La, prefix: AM CH, suffix: BBHR }
+    dam: { name: Avongara Nilli }
   breeder: Jon Curby, Kimberly Siefert
   owner: Dianna Sanders, Lauren Sanders, Kimberly Siefert
   city: Spring
@@ -699,19 +809,21 @@
   registration: HP53285702
   birthdate: 2017-01-01T00:00:00Z
   ancestors:
-    sireSireSire: {name: Reveille Boutonniere, prefix: AM CH, suffix: JC SDHR}
-    sireSire: {name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR}
-    sireSireDam: {name: Rafikis Mass Expectations, prefix: AM CH, suffix: JC BBHR}
-    sire: {name: Kibushi The Oracle, prefix: AM CH}
-    sireDam: {name: Avongara Luka}
-    damSire: {name: Avongara Tambura}
-    dam: {name: Lacada Lostten's Lively Irish Jig}
-    damDamSire: {name: Nyanga Signet Sweet William, prefix: AM CH, suffix: JC SDHR}
-    damDam: {name: Sonbar's Perfect Plan at Lacada, prefix: AM CH}
-    damDamDam: {name: Sonbar's Brite Wildirishrose, prefix: AM CH, suffix: BBHR}
+    sireSireSire: { name: Reveille Boutonniere, prefix: AM CH, suffix: JC SDHR }
+    sireSire: { name: C-Quests Soul Driver, prefix: AM CH, suffix: SDHR }
+    sireSireDam:
+      { name: Rafikis Mass Expectations, prefix: AM CH, suffix: JC BBHR }
+    sire: { name: Kibushi The Oracle, prefix: AM CH }
+    sireDam: { name: Avongara Luka }
+    damSire: { name: Avongara Tambura }
+    dam: { name: Lacada Lostten's Lively Irish Jig }
+    damDamSire:
+      { name: Nyanga Signet Sweet William, prefix: AM CH, suffix: JC SDHR }
+    damDam: { name: Sonbar's Perfect Plan at Lacada, prefix: AM CH }
+    damDamDam:
+      { name: Sonbar's Brite Wildirishrose, prefix: AM CH, suffix: BBHR }
   breeder: Jon Curby
   owner: Peter and Ashley Pérez de Corcho
   city: Columbia
   state: MO
   zip: "65201"
-

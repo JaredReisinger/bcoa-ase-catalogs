@@ -17,13 +17,13 @@
 {% endmacro %}
 
 {% macro ancestor(depth, dog) %}
-<div class="ancestor ancestor-{{ depth }}">
-  {% if dog %}
-    {{ dogName(dog.name, dog.prefix, dog.suffix) }}
-  {% else %}
-    <span class="unknown">Native Stock</span>
-  {% endif %}
-</div>
+  <div class="ancestor ancestor-{{ depth }}">
+    {% if dog %}
+      {{ dogName(dog.name, dog.prefix, dog.suffix) }}
+    {% else %}
+      <span class="unknown">Native Stock</span>
+    {% endif %}
+  </div>
 {% endmacro %}
 
 {% macro quotient(q) -%}
