@@ -19,6 +19,6 @@
   ],
   "devDependencies": {
     "prettier": "^3.9.9",
-    "prettier-plugin-nunjucks": "^0.2.2"
+    "prettier-plugin-jinja-template": "^2.2.0"
   }
 }

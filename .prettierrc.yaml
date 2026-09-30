@@ -1,7 +1,11 @@
 plugins:
-  - prettier-plugin-nunjucks
+  # - prettier-plugin-nunjucks # I'd like this, but it has whitespace bugs
+  - prettier-plugin-jinja-template
 
 overrides:
   - files: ["*.njk", "*.html"]
     options:
-      parser: nunjucks
+      # parser: nunjucks
+      parser: jinja-template
+
+htmlWhitespaceSensitivity: css
