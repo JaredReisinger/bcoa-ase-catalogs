@@ -2,7 +2,8 @@
 layout: default
 
 eleventyComputed:
-  title: 'Catalog — {{ settings.name | replace("[yyyy]", showDate.toFormat("yyyy")) }}'
+  title: >-
+    Catalog — {{ settings.name | replace("[yyyy]", showDate.toFormat("yyyy")) }}
 ---
 
 <div

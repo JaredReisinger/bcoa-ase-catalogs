@@ -3,7 +3,8 @@ layout: default
 path: home
 
 eleventyComputed:
-  title: '{{ settings.name | replace("[yyyy]", showDate.toFormat("yyyy")) }}'
+  title: >-
+    {{ settings.name | replace("[yyyy]", showDate.toFormat("yyyy")) }}
 ---
 
 <div

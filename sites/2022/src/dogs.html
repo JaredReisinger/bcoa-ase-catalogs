@@ -11,7 +11,8 @@ layout: default
 #  - dogs
 
 eleventyComputed:
-  title: '{{ dog.name | prettyQuotes }} — {{ settings.name | replace("[yyyy]", showDate.toFormat("yyyy")) }}'
+  title: >-
+    {{ dog.name | prettyQuotes }} — {{ settings.name | replace("[yyyy]", showDate.toFormat("yyyy")) }}
 
 ancestorKeys:
 - [ sireSireSire, 3 ]
