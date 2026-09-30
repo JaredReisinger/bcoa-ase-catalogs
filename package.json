@@ -1,0 +1,24 @@
+{
+  "name": "ase-catalogs",
+  "description": "A monorepo for Basenji Club of America African Stock Exhibition catalog sites",
+  "version": "0.0.0",
+  "private": true,
+  "license": "ISC",
+  "author": "Jared Reisinger",
+  "keywords": [
+    "eleventy",
+    "ESM"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*",
+    "sites/*"
+  ],
+  "devDependencies": {
+    "prettier": "^3.9.9",
+    "prettier-plugin-nunjucks": "^0.2.2"
+  }
+}

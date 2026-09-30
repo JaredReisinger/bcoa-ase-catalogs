@@ -1,0 +1,575 @@
+- id: RPd3J
+  ase: true
+  armband: 6
+  ofaNum: 2238435
+  classPlace: 1
+  award: bob
+  createdAt: 2023-06-14T19:01:29.478892568Z
+  updatedAt: 2023-07-19T02:55:50.692611628Z
+  eventId: MP6wo
+  userId: NJjEx
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  birthdate: 2021-01-13T00:00:00Z
+  imageId: vPbNP
+  breeder: Barbara and Jared Reisinger
+  owner: Barbara Reisinger, Meredith & Chris Dennis, Michael Work
+  city: Scottsdale
+  state: AZ
+  zip: "85262"
+  name: Ture’s Sending Sirius Signals
+  prefix: GCHB
+  suffix: TKN
+  registration: HP61808904
+  ancestors:
+    sireSireSire: {name: C-Quest’s Just Push Play, prefix: AM CH, suffix: SDHR}
+    sireSire: {name: Reveille Push The Limit To, prefix: GCH AM CH, suffix: MV JC SDHR}
+    sireSireDam: {name: Reveille Accord, prefix: AM CH, suffix: BBHR}
+    sire: {name: Dark Moon’s Bada Bing!, prefix: AM CH}
+    sireDamSire: {name: Jokuba C-Quest First Round Knock Out, prefix: GCH AM CH, suffix: SDHR}
+    sireDam: {name: Dark Moon’s Barking Bad, prefix: GCHS AM CH, suffix: JC}
+    sireDamDam: {name: Dark Moon’s Tilt-A-Whirl, prefix: GCH AM CH, suffix: BBHR}
+    damSireSire: {name: Berimo’s Roustabout, prefix: DC, suffix: SC SDHR}
+    damSire: {name: Penda Taji’s Tri-Umphant One, prefix: AM CAN CH, suffix: JC SDHR}
+    damSireDam: {name: Taji’s Cinnamon Swirl, prefix: AM CH, suffix: BBHR}
+    dam: {name: Taji’s hAfrican Queen Disa, prefix: DC, suffix: SC CA BCAT CGCA CGCU TKA RATM FDX}
+    damDam: {name: Avongara Naziki, prefix: FC, suffix: SC RATN}
+
+- id: Xx5WP
+  ase: true
+  ofaNum: 2212725
+  armband: 5
+  classPlace: 1
+  award: bos
+  createdAt: 2023-06-14T19:02:31.524637511Z
+  updatedAt: 2023-07-19T02:55:40.672901218Z
+  eventId: MP6wo
+  userId: NJjEx
+  quotient: one_quarter
+  ageClass: adult
+  sex: M
+  birthdate: 2021-01-13T00:00:00Z
+  imageId: Axk2o
+  breeder: Barbara and Jared Reisinger
+  owner: Barbara & Jared Reisinger
+  city: Scottsdale
+  state: AZ
+  zip: "85262"
+  name: Ture’s Stuff Dreams Are Made Of
+  prefix: BIF
+  suffix: BCAT TKN NTD-M
+  registration: HP61808902
+  ancestors:
+    sireSireSire: {name: C-Quest’s Just Push Play, prefix: AM CH, suffix: SDHR}
+    sireSire: {name: Reveille Push The Limit To, prefix: GCH AM CH, suffix: MV JC SDHR}
+    sireSireDam: {name: Reveille Accord, prefix: AM CH, suffix: BBHR}
+    sire: {name: Dark Moon’s Bada Bing!, prefix: AM CH}
+    sireDamSire: {name: Jokuba C-Quest First Round Knock Out, prefix: GCH AM CH, suffix: SDHR}
+    sireDam: {name: Dark Moon’s Barking Bad, prefix: GCHS AM CH, suffix: JC}
+    sireDamDam: {name: Dark Moon’s Tilt-A-Whirl, prefix: GCH AM CH, suffix: BBHR}
+    damSireSire: {name: Berimo’s Roustabout, prefix: DC, suffix: SC SDHR}
+    damSire: {name: Penda Taji’s Tri-Umphant One, prefix: AM CAN CH, suffix: JC SDHR}
+    damSireDam: {name: Taji’s Cinnamon Swirl, prefix: AM CH, suffix: BBHR}
+    dam: {name: Taji’s hAfrican Queen Disa, prefix: DC, suffix: SC CA BCAT CGCA CGCU TKA RATM FDX}
+    damDam: {name: Avongara Naziki, prefix: FC, suffix: SC RATN}
+
+- id: WoRNo
+  ase: true
+  armband: 8
+  ofaNum: 1495186
+  classPlace: 2
+  # award:
+  createdAt: 2023-07-10T15:59:57.767347662Z
+  updatedAt: 2023-07-19T02:57:18.314892829Z
+  eventId: MP6wo
+  userId: wxzkJ
+  quotient: full
+  ageClass: veteran
+  sex: F
+  birthdate: 2010-11-02T00:00:00Z
+  imageId: pJmYJ
+  breeder: (native stock)
+  owner: Katie Campbell
+  city: Seattle
+  state: WA
+  zip: 98116-0065
+  name: Avongara Naziki
+  prefix: FC
+  suffix: SC RATN
+  registration: HP43309901
+
+- id: aoAkJ
+  ase: true
+  armband: 7
+  ofaNum: 1618322
+  classPlace: 1
+  award: bob
+  createdAt: 2023-07-10T16:04:07.866939073Z
+  updatedAt: 2023-07-19T02:58:00.482258168Z
+  eventId: MP6wo
+  userId: wxzkJ
+  quotient: half
+  ageClass: veteran
+  sex: M
+  birthdate: 2013-01-08T00:00:00Z
+  imageId: WoRNo
+  breeder: Katie Campbell
+  owner: Katie Campbell
+  city: Seattle
+  state: WA
+  zip: 98116-0065
+  name: Taji’s hAfrican Chief
+  prefix: NFC DC
+  suffix: RN SC OA OAJ OF CA ACT1 TKN
+  registration: HP44466201
+  ancestors:
+    sireSireSire: {name: Reveille Tried And True, prefix: AM CH, suffix: SDHR}
+    sireSire: {name: Berimo’s Roustabout, prefix: DC, suffix: SC SDHR}
+    sireSireDam: {name: Khamsin Berimo Asante Ibura, prefix: AM CH, suffix: SC BBHR}
+    sire: {name: Penda Taji’s Tri-Umphant One, prefix: AM CAN CH, suffix: JC SDHR}
+    sireDamSire: {name: Proudlaan Kipenzi of Taji, prefix: DC, suffix: CD MC LCM CGC}
+    sireDam: {name: Taji’s Cinnamon Swirl, prefix: AM CH, suffix: BBHR}
+    sireDamDam: {name: Arubmec’s Traces Of Taji, prefix: DC, suffix: MC FCH CGC}
+    dam: {name: Avongara Naziki, prefix: FC, suffix: SC RATN}
+
+- id: 7PrjP
+  ase: true
+  armband: 10
+  ofaNum: 1718706
+  classPlace: 1
+  award: bos
+  createdAt: 2023-07-12T16:12:04.221451351Z
+  updatedAt: 2023-07-19T02:59:32.301267922Z
+  eventId: MP6wo
+  userId: vPbNP
+  quotient: full
+  ageClass: veteran
+  sex: F
+  birthdate: 2014-12-18T00:00:00Z
+  imageId: Vx9NJ
+  breeder: (native stock)
+  owner: James Johannes
+  city: SeaTac
+  state: WA
+  zip: "98188"
+  name: Avongara Kiri
+  suffix: SC
+  registration: HP52215501
+
+- id: nPYyP
+  ase: true
+  armband: 9
+  ofaNum: 1998407
+  classPlace: 1
+  # award:
+  createdAt: 2023-07-12T16:15:09.512403857Z
+  updatedAt: 2023-07-19T03:00:21.016245133Z
+  eventId: MP6wo
+  userId: vPbNP
+  quotient: half
+  ageClass: adult
+  sex: M
+  birthdate: 2018-01-07T00:00:00Z
+  imageId: 7PrjP
+  breeder: James Johannes
+  owner: James Johannes
+  city: SeaTac
+  state: WA
+  zip: "98188"
+  name: Dibu’s Bakindo
+  suffix: SC
+  registration: HP55368204
+  ancestors:
+    sireSireSire: {name: Grandquest Kazor’s Motumbo Xequemate, prefix: AM CH, suffix: SDHR}
+    sireSire: {name: No Ka Oi Travels To Kazor, prefix: AM SWE CH}
+    sireSireDam: {name: No Ka Oi’s Jar-Lani Paha, prefix: AM CH}
+    sire: {name: No Ka Oi’s Pono Pride Kalani}
+    sireDamSire: {name: Kazor’s Fine Design By Zindika, prefix: AM CH}
+    sireDam: {name: No Ka Oi’s Vintage Mertiage Syrah Sara}
+    sireDamDam: {name: No Ka Oi’s Manalea Pohalani, prefix: AM CH}
+    dam: {name: Avongara Kiri, suffix: SC}
+
+- id: jxnzx
+  ase: true
+  armband: 11
+  classPlace: 1
+  award: bob
+  createdAt: 2023-07-14T05:51:51.054621026Z
+  updatedAt: 2023-07-19T22:32:02.74609192Z
+  eventId: MP6wo
+  userId: Axk2o
+  quotient: three_quarter
+  ageClass: puppy
+  sex: M
+  birthdate: 2022-12-12T00:00:00Z
+  imageId: nPYyP
+  breeder: 'Jeff Gillespie, Jo Thompson '
+  owner: 'Vince Viet Nguyen, Jo Thompson, Michael Burleson '
+  city: Renton
+  state: WA
+  zip: "98056"
+  name: Lukuru ISolu
+  registration: HP67552104
+  ancestors:
+    sire: {name: Lukuru Amisi}
+    damSireSire: {name: Jasiri-Sukari White Collar Crime, prefix: AM CH, suffix: JC}
+    damSire: {name: Meisterhaus Tail Of Intrigue, prefix: AM SWE DK CH, suffix: SDHR}
+    damSireDam: {name: Undercover Bojak’s Caitlan, prefix: AM CH, suffix: BBHR}
+    dam: {name: Lukuru Bomoi Mopepe}
+    damDam: {name: Lukuru na Liboso Mopaya}
+
+- id: AxEVJ
+  ase: true
+  armband: 13
+  classPlace: 2
+  # award:
+  createdAt: 2023-07-15T20:24:32.830386603Z
+  updatedAt: 2023-07-19T22:31:47.089729327Z
+  eventId: MP6wo
+  userId: KJL4J
+  quotient: three_quarter
+  ageClass: puppy
+  sex: M
+  birthdate: 2022-12-12T00:00:00Z
+  imageId: jxnzx
+  breeder: Tom Gillespie, Jo Thompson
+  owner: Deborah Voss, Lisa Voss, Jo Thompson
+  city: Woodland
+  state: CA
+  zip: "95776"
+  name: Lukuru IKolombe
+  registration: HP67552103
+  ancestors:
+    sire: {name: Lukuru Amisi}
+    damSireSire: {name: Jasiri-Sukari White Collar Crime, prefix: AM CH, suffix: JC}
+    damSire: {name: Meisterhaus Tail Of Intrigue, prefix: AM SWE DK CH, suffix: SDHR}
+    damSireDam: {name: Undercover Bojak’s Caitlan, prefix: AM CH, suffix: BBHR}
+    dam: {name: Lukuru Bomoi Mopepe}
+    damDam: {name: Lukuru na Liboso Mopaya}
+
+- id: 3P2nP
+  ase: true
+  armband: 12
+  ofaNum: 2009523
+  classPlace: 3
+  # award:
+  createdAt: 2023-07-15T20:38:21.924277855Z
+  updatedAt: 2023-07-19T22:31:25.126210492Z
+  eventId: MP6wo
+  userId: KJL4J
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  birthdate: 2016-11-09T00:00:00Z
+  imageId: Jwjjx
+  breeder: Therese & Kevin Leimback
+  owner: Lisa Voss, Sam Stump, Kevin & Therese Leimback
+  city: Woodland
+  state: CA
+  zip: "95776"
+  name: Fopaws Lukuru Wyrd Sister At Kinetic
+  suffix: TKN
+  registration: HP53475001
+  ancestors:
+    sireSireSire: {name: Jasiri-Sukari HR Pup N’Stuff, prefix: AM AUS CH, suffix: SDHR}
+    sireSire: {name: Jasiri-Sukari John Tri-Volta, prefix: DC, suffix: SC SDHR}
+    sireSireDam: {name: Sukari-Jasiri Soda Pup, prefix: AM CH, suffix: BBHR}
+    sire: {name: FoPaw’s Saorsa Bodega Bay Redux, prefix: GCH DC, suffix: SC}
+    sireDamSire: {name: FoPaw’s Royal Flush, prefix: AM CH, suffix: SDHR}
+    sireDam: {name: FoPaw’s Touch of Evil at Saorsa, prefix: GCHB DC, suffix: RA SC CA TKP}
+    sireDamDam: {name: FoPaws Emerant Mirandaza Charmer, prefix: AM CH}
+    damSireSire: {name: FoPaw’s Royal Flush, prefix: AM CH, suffix: SDHR}
+    damSire: {name: Atarasi’s D’Lucks Edition, prefix: BISS BIF DC AM CAN CH, suffix: SC FCH SDHR}
+    damSireDam: {name: Atarasi Taji Berimo Dotcom, prefix: AM CAN CH, suffix: SC BBHR}
+    dam: {name: Fopaw’s Lukuru Gening Giraffalo}
+    damDamSire: {name: MPalema}
+    damDam: {name: Lukuru Lema}
+
+- id: JXGbx
+  ase: true
+  armband: 15
+  classPlace: 1
+  # award:
+  createdAt: 2023-07-17T19:35:15.281713622Z
+  updatedAt: 2023-07-19T03:03:33.796748753Z
+  eventId: MP6wo
+  userId: KJL4J
+  quotient: half
+  ageClass: puppy
+  sex: M
+  birthdate: 2022-12-03T00:00:00Z
+  imageId: J6Qwx
+  breeder: 'Lisa Voss, Mairead Stump, Jo Thompson, Therese Leimback '
+  owner: 'Lisa Voss, Mairead Stump, Jo Thompson, Therese Leimback '
+  city: Woodland
+  state: CA
+  zip: "95776"
+  name: Kinetic Lukuru Wyrd And Wyld With Fopaws
+  registration: HP37537503
+  ancestors:
+    sire: {name: Lukuru Amisi}
+    damSireSire: {name: Jasiri-Sukari John Tri-Volta, prefix: DC, suffix: SC SDHR}
+    damSire: {name: FoPaw’s Saorsa Bodega Bay Redux, prefix: GCH DC, suffix: SC}
+    damSireDam: {name: FoPaw’s Touch of Evil at Saorsa, prefix: GCHB DC, suffix: RA SC CA TKP}
+    dam: {name: Fopaws Lukuru Wyrd Sister At Kinetic, suffix: TKN}
+    damDamSire: {name: Atarasi’s D’Lucks Edition, prefix: BISS BIF DC AM CAN CH, suffix: SC FCH SDHR}
+    damDam: {name: Fopaw’s Lukuru Gening Giraffalo}
+    damDamDam: {name: Lukuru Lema}
+
+- id: Jwjjx
+  ase: true
+  armband: 17
+  ofaNum: 1760575
+  classPlace: 2
+  # award:
+  createdAt: 2023-07-17T20:48:56.421775766Z
+  updatedAt: 2023-07-19T03:04:18.326759461Z
+  eventId: MP6wo
+  userId: RPd3J
+  quotient: half
+  ageClass: veteran
+  sex: M
+  birthdate: 2015-10-12T00:00:00Z
+  imageId: JyRWP
+  breeder: Brenda Phillips
+  owner: Mikaela Mueller, Preston Webber, Brenda Phillips
+  city: Snohomish
+  state: WA
+  zip: "98290"
+  name: Makindu’s Next Man Up
+  prefix: FC
+  suffix: SC CA BCAT
+  registration: HP50488802
+  ancestors:
+    sireSireSire: {name: Berimo Taji Start Me Up, prefix: AM CH, suffix: SDHR}
+    sireSire: {name: Platinum’s Fearisnotafactor, prefix: GCH BISS AM CH, suffix: RN JC SDHR}
+    sireSireDam: {name: Klassic’s Sweet Patootie, prefix: AM CH}
+    sire: {name: Emerant Makindu Heez Got Game, prefix: GCH DC, suffix: BN RA LCX NAP SWN GRC ORC RATO TKA MVB}
+    sireDamSire: {name: Fopaws N Bajoran After Hours, prefix: AM CAN CH, suffix: JC}
+    sireDam: {name: Emerant N Fopaws Sheza Seeker, prefix: AM CH, suffix: RN SC BBHR}
+    sireDamDam: {name: Zuri’s Gracii, prefix: DC, suffix: SC BBHR}
+    dam: {name: Avongara Naziki, prefix: FC, suffix: SC RATN}
+
+- id: J6Qwx
+  ase: true
+  armband: 14
+  ofaNum: 2118081
+  classPlace: 4
+  # award:
+  createdAt: 2023-07-17T20:53:10.03169304Z
+  updatedAt: 2023-07-19T03:05:07.591695956Z
+  eventId: MP6wo
+  userId: RPd3J
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  birthdate: 2020-01-14T00:00:00Z
+  imageId: Jp5VP
+  breeder: Brenda Phillips
+  owner: Juan Lopez, Amanda Johnson, Brenda Phillips
+  city: Seattle
+  state: WA
+  zip: "98126"
+  name: Makindu You Know I Got It
+  suffix: TKN
+  registration: HP59398403
+  ancestors:
+    sireSireSire: {name: Platinum’s Fearisnotafactor, prefix: GCH BISS AM CH, suffix: RN JC SDHR}
+    sireSire: {name: Emerant Makindu Heez Got Game, prefix: GCH DC, suffix: BN RA LCX NAP SWN GRC ORC RATO TKA MVB}
+    sireSireDam: {name: Emerant N Fopaws Sheza Seeker, prefix: AM CH, suffix: RN SC BBHR}
+    sire: {name: Makindu’s Next Man Up, prefix: FC, suffix: SC CA BCAT}
+    sireDam: {name: Avongara Naziki, prefix: FC, suffix: SC RATN}
+    damSireSire: {name: Emerant’s Flying Fizgig, prefix: AM CAN CH, suffix: JC}
+    damSire: {name: Emerant’s The Instigator, prefix: BISS AM BIS CAN CH, suffix: JC CGC SDHR MAOM}
+    damSireDam: {name: Zuri’s Hadiya At Emerant, prefix: AM CH}
+    dam: {name: Emerant’s R E S P E C T, prefix: 'DC, CAN CH', suffix: SC SWME SHDN TKI ELT2}
+    damDamSire: {name: Emerant’s The Navigator, prefix: 'MBISS GCH AM CH, CAN CH', suffix: JC MAOM NW1}
+    damDam: {name: Platinum’s Conspiracy Theory, prefix: AM CH, suffix: BBHR}
+    damDamDam: {name: Platinum’s Shopping Spree, prefix: AM CH, suffix: BBHR}
+
+- id: JyRWP
+  ase: true
+  armband: 19
+  ofaNum: 2118079
+  classPlace: 2
+  # award:
+  createdAt: 2023-07-17T20:58:41.943835705Z
+  updatedAt: 2023-07-19T03:06:04.257309952Z
+  eventId: MP6wo
+  userId: RPd3J
+  quotient: one_quarter
+  ageClass: adult
+  sex: M
+  birthdate: 2020-01-14T00:00:00Z
+  imageId: xjLEP
+  breeder: Brenda Phillips
+  owner: Mikaela Mueller, Preston Webber, Brenda Phillips
+  city: Snohomish
+  state: WA
+  zip: "98290"
+  name: Makindu Ain’t Gonna Do You Wrong
+  prefix: AM CH
+  suffix: BCAT
+  registration: HP59398401
+  ancestors:
+    sireSireSire: {name: Platinum’s Fearisnotafactor, prefix: GCH BISS AM CH, suffix: RN JC SDHR}
+    sireSire: {name: Emerant Makindu Heez Got Game, prefix: GCH DC, suffix: BN RA LCX NAP SWN GRC ORC RATO TKA MVB}
+    sireSireDam: {name: Emerant N Fopaws Sheza Seeker, prefix: AM CH, suffix: RN SC BBHR}
+    sire: {name: Makindu’s Next Man Up, prefix: FC, suffix: SC CA BCAT}
+    sireDam: {name: Avongara Naziki, prefix: FC, suffix: SC RATN}
+    damSireSire: {name: Emerant’s Flying Fizgig, prefix: AM CAN CH, suffix: JC}
+    damSire: {name: Emerant’s The Instigator, prefix: BISS AM BIS CAN CH, suffix: JC CGC SDHR MAOM}
+    damSireDam: {name: Zuri’s Hadiya At Emerant, prefix: AM CH}
+    dam: {name: Emerant’s R E S P E C T, prefix: 'DC, CAN CH', suffix: SC SWME SHDN TKI ELT2}
+    damDamSire: {name: Emerant’s The Navigator, prefix: 'MBISS GCH AM CH, CAN CH', suffix: JC MAOM NW1}
+    damDam: {name: Platinum’s Conspiracy Theory, prefix: AM CH, suffix: BBHR}
+    damDamDam: {name: Platinum’s Shopping Spree, prefix: AM CH, suffix: BBHR}
+
+- id: Jp5VP
+  ase: true
+  armband: 16
+  ofaNum: 2433078
+  absent: true
+  # classPlace:
+  # award:
+  createdAt: 2023-07-18T08:27:00.979394331Z
+  updatedAt: 2023-07-19T22:29:44.10378924Z
+  eventId: MP6wo
+  userId: NJjEx
+  quotient: one_quarter
+  ageClass: puppy
+  sex: F
+  birthdate: 2022-12-24T00:00:00Z
+  imageId: Pa62o
+  breeder: Jon Curby, Barbara Reisinger, Denise Vertrees, Laura A Owen
+  owner: Barbara Reisinger, Jon Curby, Ethel Blair
+  city: Scottsdale
+  state: AZ
+  zip: "85262"
+  name: Kibushi & Ture’s Season of Sparkle
+  registration: HP67958905
+  ancestors:
+    sireSireSire: {name: Kokajamo’s Dogo Daktari}
+    sireSire: {name: Kokojambo’s Fani Fulani}
+    sireSireDam: {name: Avongara Buyatoli}
+    sire: {name: Suaralayn Royal First Flush}
+    sireDamSire: {name: Baagna Free Trader}
+    sireDam: {name: Aoide Princess of Burudika}
+    sireDamDam: {name: Nirse Kibibi}
+    damSireSire: {name: Kibushi The Oracle, prefix: CH}
+    damSire: {name: Kibushi Gugu Diospyros, prefix: CH, suffix: RN JC CAA BCAT SWA RATO CGCA CGCU TKP}
+    damSireDam: {name: Possum Creek’s Ngoma}
+    dam: {name: Possum Creek’s Cadillac Style with Spring Willow}
+    damDamSire: {name: Kincha’s The Striped Fighter}
+    damDam: {name: Possum Creek’s Flying Fortress, prefix: CH}
+    damDamDam: {name: Spring Willow’s Race For The Chase, prefix: CH}
+
+- id: xjLEP
+  ase: true
+  armband: 18
+  ofaNum: 2212713
+  classPlace: 2
+  # award:
+  createdAt: 2023-07-18T14:53:24.536444779Z
+  updatedAt: 2023-07-19T03:07:14.739047276Z
+  eventId: MP6wo
+  userId: QoKEJ
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  birthdate: 2020-01-18T00:00:00Z
+  imageId: P3YWx
+  breeder: Dianna & Lauren Sanders
+  owner: Annie St.Clair, Sarah Smith-Falkner, Dianna Sanders
+  city: Yelm
+  state: WA
+  zip: "98597"
+  name: Relic’s Tribal Dance With Zamaradi
+  prefix: MBIF DC
+  suffix:  TKA SC DCAT SGRC3 SORC RATN FCh VSWI MVB
+  registration: HP59467702
+  ancestors:
+    sireSire: {name: NTomba Mosika, prefix: FC, suffix: RI SC NA}
+    sire: {name: Jumoke Motema Ya Nkaki, suffix: JC}
+    sireDamSire: {name: Jumoke’s Arazi Re, prefix: AM CH, suffix: SDHR}
+    sireDam: {name: Jumoke’s Superfecta, prefix: GCH AM CH}
+    sireDamDam: {name: Jumokebaru Mischievous Sprite, prefix: AM CH, suffix: BBHR}
+    damSireSire: {name: Kaleonahe’s Eldorado This Is It, prefix: AM CH, suffix: SDHR}
+    damSire: {name: Akuaba N Eldorado Bungle In The Jungle, prefix: GCH AM CH, suffix: SDHR}
+    damSireDam: {name: Eldorado N Akuaba Unchained Melody, prefix: AM CH, suffix: BBHR}
+    dam: {name: Kaleonahe’s Empress For Relic, prefix: GCH AM CH}
+    damDamSire: {name: Eldorado’s Intrigue, prefix: GCH AM CH, suffix: SDHR}
+    damDam: {name: Kaleonahe’s Smooth Criminal, prefix: AM CH, suffix: BBHR}
+    damDamDam: {name: Khani’s Written In The Stars, prefix: AM CH, suffix: BBHR}
+
+- id: P3YWx
+  ase: true
+  armband: 20
+  classPlace:
+  # award:
+  createdAt: 2023-07-18T17:09:28.991535606Z
+  updatedAt: 2023-07-19T22:28:44.255752289Z
+  eventId: MP6wo
+  userId: exvdP
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  birthdate: 2019-11-05T00:00:00Z
+  imageId: PNYZJ
+  breeder: Bryan & Laurie Gregory
+  owner: Bryan & Laurie Gregory
+  city: Woodinville
+  state: WA
+  zip: "98072"
+  name: Jumoke’s Hula Dancer
+  prefix: FC
+  registration: HP59556602
+  ancestors:
+    sireSireSire: {name: Fantasia’s Fandango, prefix: AM CAN CH}
+    sireSire: {name: Baru’s King Triton of Jumoke, prefix: AM CH}
+    sireSireDam: {name: Jumoke’s Red Vixen Of Baru, prefix: AM CH, suffix: SC}
+    sire: {name: Baru Khani’s Humuhumunukunukuapua’A, prefix: AM CH}
+    sireDamSire: {name: Jumoke Khani Baru Rumba, prefix: GCH AM CH, suffix: RN}
+    sireDam: {name: Khanis Icarly Baru, prefix: GCH AM CH}
+    sireDamDam: {name: Teazer’s Skylark, prefix: AM CH, suffix: BBHR}
+    damSire: {name: NTomba Mosika, prefix: FC, suffix: RI SC NA}
+    dam: {name: Jumoke Motema Preciosa}
+    damDamSire: {name: Jumoke’s Arazi Re, prefix: AM CH, suffix: SDHR}
+    damDam: {name: Jumoke’s Superfecta, prefix: GCH AM CH}
+    damDamDam: {name: Jumokebaru Mischievous Sprite, prefix: AM CH, suffix: BBHR}
+
+- id: PNYZJ
+  ase: true
+  armband: 21
+  classPlace: 3
+  # award:
+  createdAt: 2023-07-19T14:08:56.88311375Z
+  updatedAt: 2023-07-19T22:28:26.701942886Z
+  eventId: MP6wo
+  userId: wPGQx
+  quotient: one_quarter
+  ageClass: adult
+  sex: M
+  birthdate: 2021-11-12T00:00:00Z
+  imageId: J76zx
+  breeder: Therese & Kevin Leimback
+  owner: Thomas Elliott, Therese & Kevin Leimback
+  city: Green Valley
+  state: AZ
+  zip: "85622"
+  name: FoPaws Lukuru Thyme to build My SpiceyB
+  registration: HP65492001
+  ancestors:
+    sireSireSire: {name: Terrarust My-Tyme to Appeal, prefix: CH}
+    sireSire: {name: FoPaws Royal Flush, prefix: BISS CH}
+    sireSireDam: {name: FoPaws Terrarust Ticket to Ride, prefix: CH}
+    sire: {name: FoPaws Lukuru One Singular Sensation}
+    sireDam: {name: Lukuru Lema}
+    damSireSire: {name: Ararasi Taji Berimo Dotcom, prefix: CH}
+    damSire: {name: FoPaw’s Oh My God, prefix: CH}
+    damSireDam: {name: Terrarust FoPaws All My Lovin, prefix: CH}
+    dam: {name: FoPaws Tequila Mockingbird}
+    damDamSire: {name: Kazors Good Karma at Fopaws, prefix: CH}
+    damDam: {name: FoPaws Poetry in Motion, prefix: CH}
+    damDamDam: {name: FoPaws Designated Driver, prefix: CH}

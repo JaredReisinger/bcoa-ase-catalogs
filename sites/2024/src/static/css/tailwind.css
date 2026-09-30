@@ -1,0 +1,90 @@
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/typography';
+
+@utility container {
+  margin-inline: auto;
+}
+
+@theme {
+  --font-*: initial;
+  --font-sans: 'Roboto Condensed', 'Arial Condensed', sans-serif;
+  --font-serif: 'Young Serif', serif;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@layer utilities {
+  /*Your Custom CSS Goes here*/
+
+  h1 {
+    @apply text-4xl mb-3 text-center lg:text-7xl;
+  }
+
+  h3 {
+    @apply text-2xl font-bold mb-3;
+  }
+
+  div.not-available {
+    margin-top: 1em;
+  }
+
+  .not-available {
+    font-style: italic;
+    color: hsl(0, 0%, 80%);
+  }
+
+  .ancestor-0 {
+    @apply ml-0 font-bold;
+  }
+
+  .ancestor-1 {
+    @apply ml-6 sm:ml-12 md:ml-16 lg:ml-20;
+    /* margin-left: 5em; */
+  }
+
+  .ancestor-2 {
+    @apply ml-12 sm:ml-24 md:ml-32 lg:ml-40;
+    /* margin-left: 10em; */
+  }
+}
+
+@layer base {
+  /* doesn't exist! */
+  .ml-18 {
+    margin-left: 4.5rem/* 72px */;
+  }
+}
+
+.ancestor-3 {
+  @apply ml-18 sm:ml-36 md:ml-48 lg:ml-60;
+  /* margin-left: 15em; */
+}
+
+span.prefix, span.suffix {
+  font-weight: normal;
+  font-size: 80%;
+  color: hsl(0, 0%, 60%)
+}
+
+span.unknown {
+  font-style: italic;
+  font-size: 80%;
+  color: hsl(0, 0%, 80%)
+}

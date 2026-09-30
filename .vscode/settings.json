@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "*.html-xx": "njk"
+    },
+    "cSpell.words": [
+        "alpinejs",
+        "browsersync",
+        "currentcolor",
+        "eleventy",
+        "elif",
+        "endfor",
+        "endmacro",
+        "Heroicon",
+        "htmlmin",
+        "linecap",
+        "linejoin",
+        "nunjucks",
+        "ordinalize",
+        "Roboto",
+        "selectattr",
+        "stylesheet"
+    ]
+}

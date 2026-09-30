@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="{{ eleventy.generator }}">
+    <title>{{title}}</title>
+    {% if description %}
+    <meta name="description" content="{{description}}" />
+    {% endif %} {% block head %}{% endblock %}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon/site.webmanifest">
+
+  </head>
+  <body>
+    <div class="relative bg-white mx-2">
+      {% include "partials/navbar.html" %}
+      {{ content | safe }}
+      {% include "partials/footer.html" %}
+    </div>
+
+    <script src="/static/js/alpine.js"></script>
+
+    {% if path == "home" %}
+    <!-- Netlify Identity Widget -->
+    <!-- Needed only if you are using Netlify Identity feature -->
+    <script
+      type="text/javascript"
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
+    {% endif %}
+  </body>
+</html>

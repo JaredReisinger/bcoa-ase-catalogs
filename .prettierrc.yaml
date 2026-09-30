@@ -1,0 +1,7 @@
+plugins:
+  - prettier-plugin-nunjucks
+
+overrides:
+  - files: ["*.njk", "*.html"]
+    options:
+      parser: nunjucks
