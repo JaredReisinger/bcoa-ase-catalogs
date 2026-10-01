@@ -1,0 +1,18 @@
+{% import "partials/dog-info.html" as info %}
+
+{% macro dogTiles(dogs) %}
+  <div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+    {% for dog in dogs | sort(false, false, "name") %}
+      {% if not dog.hidden %}
+        <a
+          class="p-5 border rounded-md shadow-md text-gray-800 hover:text-gray-900 bg-orange-100 hover:bg-orange-200"
+          href="/dogs/{{ dog.id }}/"
+        >
+          <h3 class="my-0 pb-1 font-bold text-xl">
+            {{ info.dogName(dog.name, dog.prefix, dog.suffix) }}
+          </h3>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endmacro %}

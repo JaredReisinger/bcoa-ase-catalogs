@@ -1,0 +1,71 @@
+<div
+  class="mb-10 bg-yellow-100 bg-cover bg-center"
+  style="background-image: url('{{ headerImage }}')"
+>
+  <div class="py-20" style="background-color: hsl(40, 80%, 50%, 0.5)">
+    <div class="container p-5">
+      <h1 class="font-bold font-serif" style="text-shadow: 0 0 0.5em white">
+        Basenji Club of America<br />
+        {{ showDate.toFormat('yyyy') }} National Specialty<br />
+        African Stock Exhibition
+      </h1>
+    </div>
+  </div>
+</div>
+
+{% import "partials/dog-info.html" as info %}
+{% import "partials/dog-tiles.html" as tiles %}
+
+<div class="container prose lg:max-w-6xl p-4">
+  {% if (dogs | match({ ase: true }) | length) > 0 %}
+    <h2 class="text-3xl">African Stock Exhibition</h2>
+
+    {% if (dogs | match({ ase: true, classPlace: 1 }) | length) > 0 %}
+      <h3 class="text-xl">Results</h3>
+
+      <div class="lg:flex gap-10">
+        {% for ageClass in ["puppy","adult","veteran"] %}
+          <div>
+            <h4 class="mt-0">{{ ageClass | capitalize | pluralize }}</h4>
+            {% for sex in ["M","F"] %}
+              {% for quotient in ["full","three_quarter","half","one_quarter"] %}
+                {% set classDogs = dogs | match({ ageClass:ageClass, sex: sex, quotient: quotient }) | selectattr("classPlace") | sort(false, false, "classPlace") %}
+                {% if (classDogs | length) > 0 %}
+                  <h5>
+                    {{ "Dogs" if sex === "M" else "Bitches" }}:
+                    {{ info.quotient(quotient) }} African
+                    {{ ageClass | capitalize }}
+                  </h5>
+                  <ol class="mt-0">
+                    {% for dog in classDogs %}
+                      <li class="my-0">
+                        <a href="/dogs/{{ dog.id }}/"
+                          >{{ info.dogName(dog.name, dog.prefix, dog.suffix) | trim }}</a
+                        >{% if dog.award %}
+                          , <b>{{ info.awardLong(dog.award, dog.ageClass) }}</b>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ol>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+
+      <h3 class="text-xl">All exhibitors</h3>
+    {% endif %}
+
+    {{ tiles.dogTiles(dogs | match({ase: true})) }}
+  {% endif %}
+
+  {% if (dogs | match({ parade: true }) | length) > 0 %}
+    <h2 class="text-3xl">Parade of Africans</h2>
+    {{ tiles.dogTiles(dogs | match({parade: true})) }}
+  {% endif %}
+</div>
+
+<div class="container mb-10">
+  <img class="mx-auto max-w-fit" src="/static/media/logo-150.png" alt="" />
+</div>

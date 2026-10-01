@@ -7,8 +7,6 @@ pagination:
 permalink: "dogs/{{ dog.id }}/"
 
 layout: default
-#tags:
-#  - dogs
 
 eleventyComputed:
   title: >-
@@ -32,82 +30,4 @@ ancestorKeys:
   - [damDamDam, 3]
 ---
 
-{% import "partials/dog-info.html" as info %}
-
-<article class="prose lg:prose-xl my-4 mx-auto">
-  <h3>{{ info.dogName(dog.name, dog.prefix, dog.suffix) }}</h3>
-
-  <div
-    class="grid gap-x-3 w-auto"
-    style="grid-template-columns: repeat(2, max-content)"
-  >
-    <div>Birthdate:</div>
-    <div>
-      {{ dog.birthdate | readableDate }} ({{ dog.birthdate | readableAge }} old
-      at exhibition)
-    </div>
-    <div>Sex:</div>
-    <div>{{ "Male" if dog.sex === "M" else "Female" }}</div>
-
-    <div>Class:</div>
-    <div>
-      {{ info.quotient(dog.quotient) }}-African {{ dog.ageClass | capitalize }}
-    </div>
-    {% if dog.armband %}
-      <div>Armband:</div>
-      <div>
-        {{ dog.armband }}
-        {% if dog.absent %}
-          <span class="not-available pl-2">(absent)</span>
-        {% endif %}
-      </div>
-    {% endif %}
-
-    {% if dog.classPlace or dog.award %}
-      <div>Award:</div>
-      <div>
-        {{ dog.classPlace | ordinalize | safe }} place in
-        class{% if dog.award %}
-          , <b>{{ info.awardLong(dog.award, dog.ageClass) }}</b>
-        {% endif %}
-      </div>
-    {% endif %}
-
-    <div>Owner:</div>
-    <div>{{ dog.owner }}</div>
-    <div>Breeder:</div>
-    <div>{{ dog.breeder }}</div>
-
-    <div>Health:</div>
-    <div>
-      {% if dog.ofaNum %}
-        <a href="https://ofa.org/advanced-search/?appnum={{ dog.ofaNum }}"
-          >OFA testing results</a
-        >
-      {% else %}
-        <span class="not-available">no OFA testing results available</span>
-      {% endif %}
-    </div>
-  </div>
-
-  <div>
-    {% if dog.imageId %}
-      <img
-        alt="{{ dog.name }}"
-        src="/static/media/dogs/{{ dog.imageId }}.jpg"
-      />
-    {% else %}
-      <div class="not-available">no image available</div>
-    {% endif %}
-  </div>
-
-  <h3>Pedigree</h3>
-
-  {% for key in ancestorKeys %}
-    {% if key[0] === "SELF" %}
-      {{ info.ancestor(0, { name: dog.name, prefix: dog.prefix, suffix: dog.suffix }) }}
-    {% else %}
-      {{ info.ancestor(key[1], dog.ancestors[key[0]]) }}
-    {% endif %}
-  {% endfor %}
-</article>
+{% include "pages/dogs.html" %}

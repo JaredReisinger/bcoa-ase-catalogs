@@ -1,0 +1,61 @@
+{% macro dogName(name, prefix, suffix) %}
+  {% if prefix %}
+    <span class="prefix">{{ prefix }}</span>
+  {% endif %}
+  {% if name %}
+    {{ name | prettyQuotes }}
+  {% else %}
+    <span class="unknown">Native Stock</span>
+  {% endif %}
+  {% if suffix %}
+    <span class="suffix">{{ suffix }}</span>
+  {% endif %}
+{% endmacro %}
+
+{% macro dogNameFields(dog) %}
+  {{ dogName(dog.name, dog.prefix, dog.suffix) }}
+{% endmacro %}
+
+{% macro ancestor(depth, dog) %}
+  <div class="ancestor ancestor-{{ depth }}">
+    {% if dog %}
+      {{ dogName(dog.name, dog.prefix, dog.suffix) }}
+    {% else %}
+      <span class="unknown">Native Stock</span>
+    {% endif %}
+  </div>
+{% endmacro %}
+
+{% macro quotient(q) -%}
+  {%- if q === 'full' -%}
+    Full
+  {%- elif q === 'three_quarter' -%}
+    ¾
+  {%- elif q === 'half' -%}
+    ½
+  {%- elif q === 'one_quarter' -%}
+    ¼
+  {%- else -%}
+    (unknown)
+  {%- endif -%}
+{%- endmacro %}
+
+{% macro awardLong(kind, ageClass) -%}
+  {%- if kind === 'bob' -%}
+    Best African {{ ageClass | capitalize }} in Exhibition
+  {%- elif kind === 'bos' -%}
+    Best Opposite Sex to Best African {{ ageClass | capitalize }} in Exhibition
+  {%- else -%}
+    (unknown)
+  {%- endif -%}
+{%- endmacro %}
+
+{% macro awardShort(kind, ageClass) -%}
+  {%- if kind === 'bob' -%}
+    Best {{ ageClass | capitalize }}
+  {%- elif kind === 'bos' -%}
+    Best Op {{ ageClass | capitalize }}
+  {%- else -%}
+    (unknown)
+  {%- endif -%}
+{%- endmacro %}
