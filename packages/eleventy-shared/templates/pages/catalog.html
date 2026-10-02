@@ -55,7 +55,7 @@
                       class="no-underline hover:underline"
                       href="/dogs/{{ dog.id }}/"
                       ><b>{{ info.dogNameFields(dog) | trim }}</b></a
-                    >
+                    >&nbsp;&nbsp;<small>({{ dog.registration }}; {{ dog.birthdate | readableDate }})</small>
                   </div>
                   <div class="">Breeder: {{ dog.breeder }}</div>
                   <div class="">
