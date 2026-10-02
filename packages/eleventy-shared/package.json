@@ -9,6 +9,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "css": "postcss tailwind.css --o dist/style.css",
+    "css:watch": "npm run css -- --watch",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,12 +25,19 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
     "alpinejs": "^3.17.4",
+    "cssnano": "^9.1.2",
     "html-minifier": "^4.0.0",
     "htmlmin": "^0.0.7",
     "inflection": "^3.0.2",
     "js-yaml": "^5.4.2",
     "luxon": "^3.7.2",
-    "nunjucks": "^3.2.4"
+    "nunjucks": "^3.2.4",
+    "postcss": "^8.5.28",
+    "postcss-cli": "^12.0.0",
+    "postcss-nested": "^8.0.1",
+    "tailwindcss": "^4.3.3"
   }
 }

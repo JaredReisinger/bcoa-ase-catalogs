@@ -1,5 +1,8 @@
 import { fileURLToPath } from "node:url";
 
+//@ts-expect-error -- no module file
+import { RenderPlugin } from "@11ty/eleventy";
+
 import type { EleventyConfig } from "11ty.ts";
 import htmlmin from "html-minifier";
 import * as yaml from "js-yaml";
@@ -9,6 +12,9 @@ import dates, { type Dateable } from "./dates.js";
 import numbers from "./numbers.js";
 import objects from "./objects.js";
 import typography from "./typography.js";
+
+// export pages for site consumption
+export { Page } from "./page.js";
 
 // Maybe merge the options from each?
 interface PluginOptions {
@@ -47,6 +53,8 @@ export default function aseSharedPlugin(
   );
   eleventyConfig.setLibrary("njk", njkEnv);
 
+  eleventyConfig.addPlugin(RenderPlugin);
+
   // Disable automatic use of your .gitignore
   eleventyConfig.setUseGitIgnore(false);
 
@@ -65,6 +73,13 @@ export default function aseSharedPlugin(
   eleventyConfig.addPassthroughCopy({
     [fileURLToPath(import.meta.resolve("alpinejs/dist/cdn.min.js"))]:
       "static/js/alpine.js",
+  });
+
+  // we used to run postcss to dump the CSS directly in _site, but now we need
+  // to passthrough copy from dist (can we consolidate these copies?)
+  eleventyConfig.addPassthroughCopy({
+    [fileURLToPath(import.meta.resolve("@ase/eleventy-shared/dist/style.css"))]:
+      "static/css/style.css",
   });
 
   // Copy Image Folder to /_site

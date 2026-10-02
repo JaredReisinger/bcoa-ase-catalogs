@@ -1,6 +1,8 @@
 @import "tailwindcss";
+/* somehow this is better without source? */
+/* @source "templates/** /*.{html,njk,md,11ty.js,11ty.ts}" */
 
-@plugin '@tailwindcss/typography';
+@plugin "@tailwindcss/typography";
 
 @utility container {
   margin-inline: auto;

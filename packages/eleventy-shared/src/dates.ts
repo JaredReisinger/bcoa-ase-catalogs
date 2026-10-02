@@ -14,14 +14,12 @@ export default function (
   eleventyConfig.addGlobalData("showDate", showDate);
 
   // human readable date
-  eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "LLLL d, yyyy",
-    );
+  eleventyConfig.addFilter("readableDate", (date: Dateable) => {
+    return luxonify(date).toFormat("LLLL d, yyyy");
   });
 
-  eleventyConfig.addFilter("readableAge", (dateObj) => {
-    const birthdate = DateTime.fromJSDate(dateObj, { zone: "utc" });
+  eleventyConfig.addFilter("readableAge", (date: Dateable) => {
+    const birthdate = luxonify(date);
     const age = showDate.diff(birthdate, ["years", "months"]).toHuman({
       maximumFractionDigits: 0,
     });
