@@ -180,8 +180,8 @@
   armband: 6
   ofaNum: 2131702
   # absent: true
-  # classPlace: ?
-  # award: bo?
+  classPlace: 1
+  award: bob
   quotient: one_quarter
   ageClass: adult
   sex: F
@@ -309,8 +309,8 @@
   armband: 19
   # ofaNum: ?
   # absent: true
-  # classPlace: ?
-  # award: bo?
+  classPlace: 1
+  award: bob
   prefix: DC
   suffix: SC FCH JOR
   quotient: one_quarter
@@ -352,8 +352,8 @@
   armband: 15
   # ofaNum: ?
   # absent: true
-  # classPlace: ?
-  # award: bo?
+  classPlace: 1
+  award: bos
   prefix: BIF FC
   suffix: FCh SC BCAT
   quotient: half
@@ -511,8 +511,8 @@
   armband: 10
   # ofaNum: ?
   # absent: true
-  # classPlace: ?
-  # award: bo?
+  classPlace: 1
+  award: bos
   quotient: one_quarter
   ageClass: puppy
   sex: F
@@ -659,8 +659,8 @@
   armband: 13
   # ofaNum: ?
   # absent: true
-  # classPlace: ?
-  # award: bo?
+  classPlace: 1
+  award: bob
   quotient: one_quarter
   ageClass: puppy
   sex: M
@@ -739,8 +739,8 @@
   armband: 22
   ofaNum: 1517451
   # absent: true
-  # classPlace: ?
-  # award: bo?
+  classPlace: 1
+  award: bos
   quotient: half
   ageClass: veteran
   sex: F
