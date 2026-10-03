@@ -8,7 +8,7 @@ import htmlmin from "html-minifier";
 import * as yaml from "js-yaml";
 import nunjucks from "nunjucks";
 
-import dates, { type Dateable } from "./dates.js";
+import dates, { type Dateable, luxonify } from "./dates.js";
 import numbers from "./numbers.js";
 import objects from "./objects.js";
 import typography from "./typography.js";
@@ -64,6 +64,11 @@ export default function aseSharedPlugin(
   // Allow YAML everywhere that JSON is supported.
   //@ts-expect-error -- sigh
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+
+  // pre-define default show names using the year from the show date
+  const showYear = luxonify(options.showDate).year;
+  eleventyConfig.addGlobalData("showNameLong", `BCOA ${showYear} African Stock Exhibition`);
+  eleventyConfig.addGlobalData("showNameShort", `${showYear} ASE`);
 
   eleventyConfig.addPlugin(dates, options);
   eleventyConfig.addPlugin(numbers);

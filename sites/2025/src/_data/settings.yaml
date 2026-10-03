@@ -1,4 +1,0 @@
-# The "[yyyy]" in the name is replaced by the year of the show; look for the
-# `showDate` value in eleventy.js
-name: BCOA [yyyy] African Stock Exhibition
-logo: /static/media/logo-150.png

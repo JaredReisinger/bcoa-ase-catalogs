@@ -15,6 +15,8 @@ export interface AseSiteData {
   };
 
   showDate: Dateable;
+  showNameLong: string;
+  showNameShort: string;
 
   dogs: DogEntry[];
   dog?: DogEntry; // when paginating
@@ -131,11 +133,7 @@ export function Page(pageName: PageName): typeof SharedPage<AseSiteData> {
       let permalink: string | Function = `/${pageName}/`;
       let extraData = {};
 
-      const titleBase = (data: AseSiteData) => {
-        // we need the show date to get the year...
-        const year = luxonify(data.showDate).toFormat("yyyy");
-        return data.settings.name.replaceAll("[yyyy]", year);
-      };
+      const titleBase = (data: AseSiteData) => data.showNameLong;
 
       let title = titleBase;
 

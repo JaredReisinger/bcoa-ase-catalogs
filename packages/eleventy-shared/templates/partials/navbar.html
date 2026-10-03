@@ -25,10 +25,8 @@
     >
       <div class="lg:w-0 lg:flex-1">
         <a href="/" class="flex items-center gap-2">
-          <img class="h-8 w-auto sm:h-14" src="{{ settings.logo }}" alt="" />
-          <span class="font-serif text-lg"
-            >{{ settings.name | replace("[yyyy]", showDate.toFormat("yyyy")) }}</span
-          >
+          <img class="h-8 w-auto sm:h-14" src="/static/media/logo.png" alt="" />
+          <span class="font-serif text-lg">{{ showNameLong }}</span>
         </a>
       </div>
       <div class="-my-2 -mr-2">
@@ -82,8 +80,8 @@
           <div>
             <img
               class="h-8 w-auto"
-              src="{{ settings.logo }}"
-              alt="{{ settings.name | replace("[yyyy]", showDate.toFormat("yyyy")) }}"
+              src="/static/media/logo.png"
+              alt="{{ showNameLong }}"
             />
           </div>
           <div class="-mr-2">
