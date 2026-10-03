@@ -1,6 +1,6 @@
 import { fileURLToPath } from "node:url";
+import { DateTime } from "luxon";
 
-import { Dateable, luxonify } from "./dates.js";
 import { prettyQuotes } from "./typography.js";
 
 export abstract class SharedPage<TData> {
@@ -9,12 +9,12 @@ export abstract class SharedPage<TData> {
 }
 
 export interface AseSiteData {
-  settings: {
-    name: string;
-    logo: string;
-  };
+  // settings: {
+  //   name: string;
+  //   logo: string;
+  // };
 
-  showDate: Dateable;
+  showDate: DateTime;
   showNameLong: string;
   showNameShort: string;
 
@@ -114,6 +114,8 @@ export interface DogEntry extends Dog {
   };
 }
 
+type Generator = (data: AseSiteData) => string;
+
 export type PageName = "index" | "dogs" | "catalog";
 
 // It's not clear if a factory like this is better/worse that separate
@@ -130,26 +132,25 @@ export function Page(pageName: PageName): typeof SharedPage<AseSiteData> {
       // console.log(`PAGE ${pageName} DATA: ${Object.keys(this)}`);
 
       // each page has a slightly different permalink, title, etc.
-      let permalink: string | Function = `/${pageName}/`;
+      let permalink: Generator = () => `/${pageName}/`;
       let extraData = {};
+      let extraComputed = {};
 
-      const titleBase = (data: AseSiteData) => data.showNameLong;
+      const urlHost = (data: AseSiteData) =>
+        `https://ase${data.showDate.year}.jaredreisinger.com`;
 
-      let title = titleBase;
+      const siteName = (data: AseSiteData) => data.showNameLong;
+      let pageTitle: Generator | undefined;
 
       switch (pageName) {
         case "index":
-          permalink = "/";
+          permalink = () => "/";
           break;
 
         case "dogs":
           permalink = (data: AseSiteData) => `/dogs/${data.dog!.id}/`;
-          title = (data: AseSiteData) => {
-            // console.log(
-            //   `PAGE ${pageName} TITLE: ${Object.keys(this)} -- ${Object.keys(data)}`,
-            // );
-            return `${prettyQuotes(data.dog!.name)} — ${titleBase(data)}`;
-          };
+          const dogNameFn = (data: AseSiteData) => prettyQuotes(data.dog!.name);
+          pageTitle = dogNameFn;
 
           // need to define the additional frontmatter info...
           extraData = {
@@ -177,10 +178,33 @@ export function Page(pageName: PageName): typeof SharedPage<AseSiteData> {
               ["damDamDam", 3],
             ],
           };
+
+          extraComputed = {
+            // open graph specific to dogs..
+            ogType: "profile",
+            ogImage: (data: AseSiteData) =>
+              data.dog!.imageId
+                ? `${urlHost(data)}/static/media/dogs/${data.dog!.imageId}.jpg`
+                : undefined,
+            ogImageType: (data: AseSiteData) =>
+              data.dog!.imageId ? "image/jpeg" : undefined,
+            ogImageAlt: dogNameFn,
+            customMeta: (data: AseSiteData) =>
+              [
+                {
+                  property: "profile:first_name",
+                  content: dogNameFn(data),
+                },
+                {
+                  property: "profile:gender",
+                  content: data.dog!.sex == "M" ? "male" : "female",
+                },
+              ].map((attrs) => ({ tag: "meta", attrs })),
+          };
           break;
 
         case "catalog":
-          title = (data: AseSiteData) => `Catalog — ${titleBase(data)}`;
+          pageTitle = (data: AseSiteData) => "Catalog";
           break;
       }
 
@@ -189,7 +213,13 @@ export function Page(pageName: PageName): typeof SharedPage<AseSiteData> {
         layout: "default",
         ...extraData,
         eleventyComputed: {
-          title,
+          title: pageTitle
+            ? (data: AseSiteData) => `${pageTitle(data)} — ${siteName(data)}`
+            : siteName,
+          siteName,
+          ogTitle: pageTitle,
+          ogUrl: (data: AseSiteData) => `${urlHost(data)}${data.page.url}`,
+          ...extraComputed,
         },
       };
     }

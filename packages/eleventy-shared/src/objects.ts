@@ -12,6 +12,12 @@ export default function (
     return Object.fromEntries(entries);
   });
 
+  //@ts-expect-error -- addFilter has bad typing
+  eleventyConfig.addFilter("arrayFlat", (items: any[]) => {
+    return items.flat();
+  });
+
+
   eleventyConfig.addFilter("match", (list, selector) => {
     const kvs = Object.entries(selector);
     //@ts-expect-error -- again, bad typing on params

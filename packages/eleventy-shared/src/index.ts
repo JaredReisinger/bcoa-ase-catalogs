@@ -2,6 +2,8 @@ import { fileURLToPath } from "node:url";
 
 //@ts-expect-error -- no module file
 import { RenderPlugin } from "@11ty/eleventy";
+//@ts-expect-error -- no module file
+import MetagenPlugin from "eleventy-plugin-metagen";
 
 import type { EleventyConfig } from "11ty.ts";
 import htmlmin from "html-minifier";
@@ -54,6 +56,7 @@ export default function aseSharedPlugin(
   eleventyConfig.setLibrary("njk", njkEnv);
 
   eleventyConfig.addPlugin(RenderPlugin);
+  eleventyConfig.addPlugin(MetagenPlugin);
 
   // Disable automatic use of your .gitignore
   eleventyConfig.setUseGitIgnore(false);

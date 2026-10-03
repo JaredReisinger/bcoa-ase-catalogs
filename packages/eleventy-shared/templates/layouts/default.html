@@ -1,44 +1,68 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="generator" content="{{ eleventy.generator }}" />
-    <title>{{ title }}</title>
-    {% if description %}
-      <meta name="description" content="{{ description }}" />
-    {% endif %}
+    {%
+      metagen
+      title=title,
+      url=ogUrl,
+      desc=description,
+      site_name=siteName,
+      og_title=ogTitle,
+      type=ogType,
+      og_image=ogImage,
+      og_image_type=ogImageType,
+      og_image_alt=ogImageAlt,
+      twitter_title=ogTitle,
+      twitter_desc=siteName,
+      twitter_image=ogImage,
+      twitter_image_alt=ogImageAlt,
+      generator=eleventy.generator,
+      preconnect=[
+        "https://fonts.googleapis.com",
+        { url: "https://fonts.gstatic.com", crossorigin: true}
+      ],
+      custom=([customMeta or [], [{
+        tag: "link",
+        attrs: {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Young+Serif&display=swap"
+        }
+      },{
+        tag: "link",
+        attrs: {
+          rel: "apple-touch-icon",
+          sizes: "180x180",
+          href: "/static/favicon/apple-touch-icon.png"
+        }
+      },{
+        tag: "link",
+        attrs: {
+          rel: "icon",
+          type: "image/png",
+          sizes: "32x32",
+          href: "/static/favicon/favicon-32x32.png"
+        }
+      },{
+        tag: "link",
+        attrs: {
+          rel: "icon",
+          type: "image/png",
+          sizes: "16x16",
+          href: "/static/favicon/favicon-16x16.png"
+        }
+      },{
+        tag: "link",
+        attrs: {
+          rel: "manifest",
+          href: "/static/favicon/site.webmanifest"
+        }
+      }]] | arrayFlat),
+      css=[
+        "/static/css/style.css"
+      ]
+    %}
     {% block head %}
     {% endblock %}
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Young+Serif&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
-
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/static/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/static/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/static/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/static/favicon/site.webmanifest" />
   </head>
   <body>
     <div class="relative bg-white mx-2">

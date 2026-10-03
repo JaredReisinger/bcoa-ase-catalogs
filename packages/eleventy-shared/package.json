@@ -31,6 +31,7 @@
     "@tailwindcss/typography": "^0.5.20",
     "alpinejs": "^3.17.4",
     "cssnano": "^9.1.2",
+    "eleventy-plugin-metagen": "^1.8.5",
     "html-minifier": "^4.0.0",
     "htmlmin": "^0.0.7",
     "inflection": "^3.0.2",
