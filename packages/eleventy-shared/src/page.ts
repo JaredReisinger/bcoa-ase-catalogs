@@ -142,6 +142,11 @@ export function Page(pageName: PageName): typeof SharedPage<AseSiteData> {
       const siteName = (data: AseSiteData) => data.showNameLong;
       let pageTitle: Generator | undefined;
 
+      let ogImage = (data: AseSiteData) =>
+        `${urlHost(data)}/static/media/logo.png`;
+      let ogImageType = (data: AseSiteData) => "image/png";
+      let ogImageAlt = siteName;
+
       switch (pageName) {
         case "index":
           permalink = () => "/";
@@ -151,6 +156,16 @@ export function Page(pageName: PageName): typeof SharedPage<AseSiteData> {
           permalink = (data: AseSiteData) => `/dogs/${data.dog!.id}/`;
           const dogNameFn = (data: AseSiteData) => prettyQuotes(data.dog!.name);
           pageTitle = dogNameFn;
+
+          const ogImageOrig = ogImage;
+          const ogImageTypeOrig = ogImageType;
+          ogImage = (data: AseSiteData) =>
+            data.dog!.imageId
+              ? `${urlHost(data)}/static/media/dogs/${data.dog!.imageId}.jpg`
+              : ogImageOrig(data);
+          ogImageType = (data: AseSiteData) =>
+            data.dog!.imageId ? "image/jpeg" : ogImageTypeOrig(data);
+          ogImageAlt = dogNameFn;
 
           // need to define the additional frontmatter info...
           extraData = {
@@ -182,13 +197,6 @@ export function Page(pageName: PageName): typeof SharedPage<AseSiteData> {
           extraComputed = {
             // open graph specific to dogs..
             ogType: "profile",
-            ogImage: (data: AseSiteData) =>
-              data.dog!.imageId
-                ? `${urlHost(data)}/static/media/dogs/${data.dog!.imageId}.jpg`
-                : undefined,
-            ogImageType: (data: AseSiteData) =>
-              data.dog!.imageId ? "image/jpeg" : undefined,
-            ogImageAlt: dogNameFn,
             customMeta: (data: AseSiteData) =>
               [
                 {
@@ -219,6 +227,9 @@ export function Page(pageName: PageName): typeof SharedPage<AseSiteData> {
           siteName,
           ogTitle: pageTitle,
           ogUrl: (data: AseSiteData) => `${urlHost(data)}${data.page.url}`,
+          ogImage,
+          ogImageType,
+          ogImageAlt,
           ...extraComputed,
         },
       };
