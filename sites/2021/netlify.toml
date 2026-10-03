@@ -1,0 +1,3 @@
+[build]
+  command = "npm --workspace sites/2021 run build"
+  publish = "sites/2021/_site"

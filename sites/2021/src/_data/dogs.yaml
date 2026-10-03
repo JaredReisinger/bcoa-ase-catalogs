@@ -1,0 +1,312 @@
+- id: 50692
+  name: Eldorado N Akuaba Kiss Me Quick
+  ase: true
+  armband: 10
+  # ofaNum: ?
+  # absent: true
+  classPlace: 2
+  # award: bo?
+  quotient: one_quarter
+  ageClass: puppy
+  sex: F
+  registration: HP61575902
+  birthdate: 2020-11-07
+  ancestors:
+    sireSireSire: { name: Kaleonahe's Eldorado This is It, prefix: CH }
+    sireSire: { name: Akuaba N Eldorado On Top Of The World, prefix: CH }
+    sireSireDam: { name: Eldorado N Akuaba Unchained Melody, prefix: CH }
+    sire: { name: Eldorado N Akuaba Quantum of Solace, prefix: GCH }
+    sireDamSire: { name: Akuaba In Corduroy, prefix: CH }
+    sireDam: { name: Eldorado's Akuaba With One Look, prefix: CH }
+    sireDamDam: { name: Eldorado's Ooh La La, prefix: CH }
+    # damSireSire: { name: Unknown }
+    damSire: { name: Avongara Ojo }
+    # damSireDam: { name: Unknown }
+    dam: { name: Eldorado N Akuaba Jewel Of The Nile, prefix: CH }
+    damDamSire: { name: Kaleonahe's Eldorado This is It, prefix: CH }
+    damDam: { name: Akuaba N Eldorado Blaze of Glory, prefix: CH }
+    damDamDam: { name: Eldorado N Akuaba Unchained Melody, prefix: CH }
+  breeder: Sheila Lund & Susan Coe & Pamela Geoffroy
+  owner: Sheila Lund & Susan Coe & Pamela Geoffroy
+  city: N Attleboro
+  state: MA
+  zip: "02760"
+
+- id: 50721
+  name: Ture's Sending Sirius Signals
+  prefix: CH
+  ase: true
+  armband: 12
+  # ofaNum: ?
+  # absent: true
+  classPlace: 1
+  award: bob
+  quotient: one_quarter
+  ageClass: puppy
+  sex: F
+  registration: HP61808904
+  birthdate: 2021-01-13
+  ancestors:
+    sireSireSire: { name: C-Quest's Just Push Play }
+    sireSire: { name: Revellie Push The Limit To MV }
+    sireSireDam: { name: Reveille Accord  }
+    sire: { name: Dark Moon's Bada Bing! }
+    sireDamSire: { name: Jokuba C-Quest First Round Knock Out }
+    sireDam: { name: Dark Moon's Barking Bad }
+    sireDamDam: { name: Dark Moon's Tilt-A-Whirl }
+    damSireSire: { name: Berimo's Roustabout }
+    damSire: { name: Penda Taji's Tri-Umphant One }
+    damSireDam: { name: Taji's Cinnamon Swirl }
+    dam: { name: Taji's hAfrican Queen Disa }
+    # damDamSire: { name: (Foundation Stock) }
+    damDam: { name: Avongara Naziki }
+    # damDamDam: { name: (Foundation Stock) }
+  breeder: Barbara Reisinger and Jared Reisinger
+  owner: Barbara Reisinger, Meredith Dennis, Chris Dennis, and Michael Work
+  city: Scottsdale
+  state: AZ
+  zip: "85262"
+
+- id: 50746
+  name: Avongara Timar Zigs to SkyHi
+  ase: true
+  armband: 5
+  # ofaNum: ?
+  # absent: true
+  classPlace: 1
+  award: bob
+  quotient: full
+  ageClass: adult
+  sex: M
+  registration: HP54303/01
+  birthdate: 2018-04-12
+  ancestors:
+    # sireSireSire: { name: Unknown }
+    sireSire: { name: Avongar Gangura }
+    # sireSireDam: { name: Unknown }
+    sire: { name: Avongar Zindiko Brushy Run, suffix: CDX }
+    # sireDamSire: { name: Unknown }
+    sireDam: { name: Avongara Zamee }
+    # sireDamDam: { name: Unknown }
+    # damSireSire: { name: Unknown }
+    damSire: { name: Avongara Zibili }
+    damSireDam: { name: Avongara Luka }
+    dam: { name: Avongara Zhanna, prefix: UKC CH, suffix: RN TKN }
+    damDamSire: { name: Avongara All the Way }
+    damDam: { name: Avongara Pleasant Surprise }
+    damDamDam: { name: Avongara All of Me }
+  breeder: Jeffrey J Gillespie & Jean D Martin
+  owner: Laurie Stargell & Jean D Martin
+  city: Tully
+  state: NY
+  zip: "13159"
+
+- id: 50798
+  name: Kibushi's Dark Heir of Gotham
+  prefix: FC
+  suffix: SC BCAT
+  ase: true
+  armband: 7
+  # ofaNum: ?
+  # absent: true
+  classPlace: 1
+  # award: bo?
+  quotient: half
+  ageClass: adult
+  sex: M
+  registration: HP57599404
+  birthdate: 2018-12-15
+  ancestors:
+    sireSireSire: { name: Chaanrose Parting Shot }
+    sireSire: { name: Sternhimmels Generis Sui, prefix: CH }
+    sireSireDam: { name: Sternhimmels Ad Astra, prefix: CH }
+    sire: { name: Akuaba N Eldorado Chariots Of Fire, prefix: GCH CH }
+    sireDamSire: { name: Akuaba In Corduroy, prefix: CH }
+    sireDam: { name: Eldorado's Akuaba With One Look, prefix: CH }
+    sireDamDam: { name: Eldorado's Ooh La La, prefix: CH }
+    # damSireSire: { name: Unknown }
+    # damSire: { name: Unknown }
+    # damSireDam: { name: Unknown }
+    dam: { name: Avongara Nilli }
+    # damDamSire: { name: Unknown }
+    # damDam: { name: Unknown }
+    # damDamDam: { name: Unknown }
+  breeder: Jon Curby & Kim Siefert
+  owner: Jessica Ryno & Jon Curby
+  city: Florissant
+  state: MO
+  zip: "63031"
+
+- id: 50816
+  name: Wambuti's Dayo
+  prefix: CH
+  suffix: JC CAA DCAT
+  ase: true
+  armband: 9
+  # ofaNum: ?
+  # absent: true
+  classPlace: 1
+  # award: bo?
+  quotient: one_quarter
+  ageClass: adult
+  sex: M
+  registration: HP 51506201
+  birthdate: 2015-12-26
+  ancestors:
+    sireSireSire: { name: C-Quests Soul Driver }
+    sireSire: { name: Skyhi's Daredevil }
+    sireSireDam: { name: Akuaba's Saboteur }
+    sire: { name: C-Quest Jokuba Dandy Shandy, prefix: CH }
+    sireDamSire: { name: Akuaba In Corduroy }
+    sireDam: { name: Eldorado The Look of Jokuba }
+    sireDamDam: { name: Eldorado's Ooh La La }
+    damSireSire: { name: Reveille Boutoniere }
+    damSire: { name: C-Quest's Soul Driver }
+    damSireDam: { name: Rafikis Mass Expectations }
+    dam: { name: Kibushi Heart And Soul, prefix: CH }
+    # damDamSire: { name: Unknown }
+    damDam: { name: Avongara Luka }
+    # damDamDam: { name: Unknown }
+  breeder: Carmen Ziemer
+  owner: Felice M. Lang
+  city: Stamford
+  state: CT
+  zip: "06906"
+
+- id: 50633
+  name: Lukuru Bomoi Mopepe
+  ase: true
+  armband: 8
+  # ofaNum: ?
+  # absent: true
+  classPlace: 1
+  award: bos
+  quotient: half
+  ageClass: adult
+  sex: F
+  registration: HP50569302
+  birthdate: 2015-12-16
+  ancestors:
+    sireSireSire: { name: Jasiri-Sukari HR Pup N'Stuff }
+    sireSire: { name: Jasiri-Sukari White Collar Crime }
+    sireSireDam: { name: Sukari-Jasiri Soda Pup }
+    sire: { name: Meisterhaus Tail of Intrigue }
+    sireDamSire: { name: Bojak's Undercover Kojak }
+    sireDam: { name: Undercover Bojak's Caitlan }
+    sireDamDam: { name: Bojak's Abbai Kosa Mjinga }
+    # damSireSire: { name: Unknown }
+    # damSire: { name: unknown Lukuru na Liboso Mopaya }
+    # damSireDam: { name: Unknown }
+    dam: { name: Lukuru na Liboso Mopaya }
+    # damDamSire: { name: Unknown }
+    # damDam: { name: unknown Lukuru na Liboso Mopaya }
+    # damDamDam: { name: Unknown }
+  breeder: Jo Thompson
+  owner: Tom Gillespie & Jo Thompson
+  city: Soddy daisy
+  state: TN
+  zip: "37379"
+
+- id: 50579
+  name: Taji's Asian Flower Power at Blue Note
+  prefix: GCH DC
+  ase: true
+  armband: 6
+  # ofaNum: ?
+  # absent: true
+  classPlace: 2
+  # award: bo?
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  registration: HP48081301
+  birthdate: 2014-10-01
+  ancestors:
+    sireSireSire: { name: Berimo's Roustabout, prefix: DC }
+    sireSire: { name: Taji's Tri-Umphant One, prefix: CH }
+    sireSireDam: { name: Taji's Cinnamon Swirl, prefix: CH }
+    sire: { name: NFC DC Taji's Hafrican Chief }
+    # sireDamSire: { name: Unknown }
+    sireDam: { name: FC Avongara Naziki }
+    # sireDamDam: { name: Unknown }
+    damSireSire: { name: Helios Tajis Aussie Rules }
+    damSire: { name: Taji's Mel Bourne in the USA, prefix: CH }
+    damSireDam: { name: Taji's Cinnamon Swirl, prefix: CH }
+    dam: { name: Taji's Banh Mi on the Runway to Blue Note, prefix: GCH DC }
+    damDamSire: { name: Jerlin-SS Special Forces, prefix: CH }
+    damDam: { name: Taji's Tea for Two, prefix: DC }
+    damDamDam: { name: Taji's Go For Baroque, prefix: CH }
+  breeder: Katie Campbell Holly Hamilton Mark Farnsworth and JG Kim
+  owner: Katie Campbell Holly Hamilton Mark Farnsworth and JG Kim
+  city: Cincinnati
+  state: OH
+  zip: "45236"
+
+- id: 50718
+  name: Timar Ka'eonahe's Liya
+  ase: true
+  armband: 14
+  # ofaNum: ?
+  # absent: true
+  classPlace: 3
+  # award: bo?
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  registration: HP55574201
+  birthdate: 2017-12-10
+  ancestors:
+    sireSireSire: { name: Akuaba N Eldorado Bungle in the Jungle, prefix: GCH CH }
+    sireSire: { name: Eldorado N Akuaba's Dream Lover, prefix: GCH CH }
+    sireSireDam: { name: Eldorado's Mirror Mirror on the Wall, prefix: CH }
+    sire: { name: Timar Kaleonahe's Night Mood, prefix: CH }
+    sireDamSire: { name: Sadikis Dreamland Delight }
+    sireDam: { name: Timar's Morning Mist of Relyn, prefix: Am Can UKC CH }
+    sireDamDam: { name: Timar's Reminisce, prefix: Am Can UKC CH }
+    # damSireSire: { name: Unknown }
+    damSire: { name: Avongara Ojo }
+    # damSireDam: { name: Unknown }
+    dam: { name: Kaleonahes's Ancient Chinese Secret, prefix: DC, suffix: SC }
+    damDamSire: { name: C-Quest's Master of Disguise, prefix: CH }
+    damDam: { name: Eldorado's Quality of Mercy at Kaleonahe, prefix: DC }
+    damDamDam: { name: Eldorado's Scarlett to Saqqara, prefix: CH }
+  breeder: Kyle Cabral & Stepehen Strobel
+  owner: Jean D Martin
+  city: Tully
+  state: NY
+  zip: "13159"
+
+- id: 50797
+  name: Possum Creek's Cadillac Style with Spring Willow
+  ase: true
+  armband: 16
+  # ofaNum: ?
+  # absent: true
+  classPlace: 1
+  # award: bo?
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  registration: HP59352501
+  birthdate: 2019-12-27
+  ancestors:
+    sireSireSire: { name: C-Quests Soul Driver, prefix: CH }
+    sireSire: { name: Kibushi The Oracle, prefix: CH }
+    sireSireDam: { name: Avongara Luka }
+    sire: { name: Kibushi Gugu Diospyros, prefix: CH, suffix: RN JC CAA RATO CGCA CGCU TKA }
+    sireDamSire: { name: Avongara Tambura }
+    sireDam: { name: Possum Creek's Ngoma }
+    sireDamDam: { name: Briden's Pinstriped Possum, prefix: CH }
+    damSireSire: { name: African Rainbow's Elewa-Ebo, prefix: CH }
+    damSire: { name: Kincha's The Striped Fighter, prefix: CH }
+    damSireDam: { name: Kincha's Mixed With Magic }
+    dam: { name: Possum Creek's Flying Fortress, prefix: CH }
+    damDamSire: { name: Spring Willows Reaction Time, prefix: CH }
+    damDam: { name: Spring Willow's Race For The Chase, prefix: CH }
+    damDamDam: { name: Teazer Khani's I'm Coming Out, prefix: CH }
+  breeder: Carole L. Kirk & Laura A. Owen
+  owner: Denise Vertrees & Jon Curby & Barbara Reisinger & Laura A. Owen
+  city: Kyle
+  state: TX
+  zip: "78640"
+
