@@ -2,8 +2,8 @@
   ase: true
   armband: 11
   # ofaNum: 12345
-  # classPlace:
-  # award: bo
+  classPlace: 1
+  award: bob
   id: 11
   createdAt: 2026-09-17T14:42:19
   updatedAt: 2026-09-17T14:42:19
@@ -27,7 +27,7 @@
   ase: true
   armband: 7
   # ofaNum: 12345
-  # classPlace:
+  classPlace: 1
   # award: bo
   suffix: STR
   id: 5
@@ -53,7 +53,7 @@
   ase: true
   armband: 9
   # ofaNum: 12345
-  # classPlace:
+  classPlace: 1
   # award: bo
   id: 7
   createdAt: 2026-08-31T18:16:28
@@ -78,8 +78,8 @@
   ase: true
   armband: 5
   # ofaNum: 12345
-  # classPlace:
-  # award: bo
+  classPlace: 1
+  award: bob
   suffix: SC
   id: 2
   createdAt: 2026-08-25T12:12:46
@@ -104,7 +104,7 @@
   ase: true
   armband: 6
   # ofaNum: 12345
-  # classPlace:
+  classPlace: 1
   # award: bo
   suffix: SC
   id: 1
@@ -130,7 +130,7 @@
   ase: true
   armband: 14
   # ofaNum: 12345
-  # classPlace:
+  classPlace: 2
   # award: bo
   id: 8
   createdAt: 2026-09-02T15:12:07
@@ -155,7 +155,7 @@
   ase: true
   armband: 8
   # ofaNum: 12345
-  # classPlace:
+  classPlace: 2
   # award: bo
   suffix: TKN
   id: 3
@@ -181,8 +181,8 @@
   ase: true
   armband: 16
   # ofaNum: 12345
-  # classPlace:
-  # award: bo
+  classPlace: 1
+  award: bos
   prefix: GCH CH
   id: 9
   createdAt: 2026-09-06T20:53:13
@@ -207,7 +207,7 @@
   ase: true
   armband: 10
   # ofaNum: 12345
-  # classPlace:
+  classPlace: 2
   # award: bo
   prefix: MBIF FC
   suffix: SC
@@ -234,7 +234,7 @@
   ase: true
   armband: 12
   # ofaNum: 12345
-  # classPlace:
+  classPlace: 1
   # award: bo
   prefix: FC
   suffix: SC
@@ -261,8 +261,8 @@
   ase: true
   armband: 18
   # ofaNum: 12345
-  # classPlace:
-  # award: bo
+  classPlace: 1
+  award: bob
   prefix: GCH DC
   suffix: SC BCAT
   id: 10
@@ -271,7 +271,7 @@
   eventId: xx
   userId: 10
   quotient: one_quarter
-  ageClass: adult
+  ageClass: veteran
   sex: F
   birthdate: 2014-10-01
   breeder: Katie Campbell
@@ -288,8 +288,8 @@
   ase: true
   armband: 13
   # ofaNum: 12345
-  # classPlace:
-  # award: bo
+  classPlace: 1
+  award: bos
   prefix: GCH CH
   suffix: JC CAX FCAT5 ATT
   id: 12
