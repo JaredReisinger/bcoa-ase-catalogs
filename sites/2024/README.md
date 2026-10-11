@@ -1,4 +1,4 @@
-# ase2024.basenji.org
+# 2024 African Stock Exhibition
 
 The online catalog and results for the African Stock Exhibition of the Basenji Club of America’s 2024 National Specialty.
 
