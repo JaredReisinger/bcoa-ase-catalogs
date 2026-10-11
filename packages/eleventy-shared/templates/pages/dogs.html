@@ -72,7 +72,7 @@
   {% for key in ancestorKeys %}
     {% if key[0] === "SELF" %}
       {{ info.ancestor(0, { name: dog.name, prefix: dog.prefix, suffix: dog.suffix }) }}
-    {% else %}
+    {% elif key[1] <= pedigreeDepth %}
       {{ info.ancestor(key[1], dog.ancestors[key[0]]) }}
     {% endif %}
   {% endfor %}

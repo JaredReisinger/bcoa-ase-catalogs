@@ -21,6 +21,7 @@ export { Page } from "./page.js";
 // Maybe merge the options from each?
 interface PluginOptions {
   showDate: Dateable;
+  pedigreeDepth: number; // generations of pedigree to show (3 by default)
 }
 
 // class MyLoader extends nunjucks.FileSystemLoader {
@@ -72,6 +73,8 @@ export default function aseSharedPlugin(
   const showYear = luxonify(options.showDate).year;
   eleventyConfig.addGlobalData("showNameLong", `BCOA ${showYear} African Stock Exhibition`);
   eleventyConfig.addGlobalData("showNameShort", `${showYear} ASE`);
+  eleventyConfig.addGlobalData("pedigreeDepth", options.pedigreeDepth || 3);
+
 
   eleventyConfig.addPlugin(dates, options);
   eleventyConfig.addPlugin(numbers);

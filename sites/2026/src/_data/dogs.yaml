@@ -1,0 +1,47 @@
+- name: BOGUS NAME 1
+  ase: true
+  armband: 14
+  # ofaNum: 12345
+  classPlace: 1
+  award: bos
+  id: P5XWJ
+  createdAt: 2025-10-01T22:10:37.45193083Z
+  updatedAt: 2025-10-14T00:54:36.594247968Z
+  eventId: NJjEx
+  userId: Axk2o
+  quotient: three_quarter
+  ageClass: puppy
+  sex: F
+  birthdate: 2026-05-25T00:00:00Z
+  breeder: BREEDER 1
+  owner: OWNER 1
+  city: CITY 1
+  state: STATE 1
+  registration: REG 1
+  ancestors:
+    sire: { name: SIRE 1, prefix: CH }
+    dam: { name: DAM 1, suffix: SC }
+
+- name: BOGUS NAME 2
+  ase: true
+  armband: 15
+  # ofaNum: 12345
+  classPlace: 1
+  award: bob
+  id: JR3NP
+  createdAt: 2025-10-01T22:28:39.387999476Z
+  updatedAt: 2025-10-14T00:55:48.290696954Z
+  eventId: NJjEx
+  userId: Axk2o
+  quotient: three_quarter
+  ageClass: puppy
+  sex: M
+  birthdate: 2026-05-25T00:00:00Z
+  breeder: BREEDER 2
+  owner: OWNER 2
+  city: CITY 2
+  state: STATE 2
+  registration: REG 2
+  ancestors:
+    sire: { name: SIRE 2, prefix: CH }
+    dam: { name: DAM 2, suffix: SC }

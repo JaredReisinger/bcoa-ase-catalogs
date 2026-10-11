@@ -128,6 +128,10 @@ export function Page(pageName: PageName): typeof SharedPage<AseSiteData> {
       // );
     }
 
+    // For the record, it's *really* annoying that data() is called *before* the
+    // data-cascade is made available! Soooooo many of the properties need
+    // access to existing data!  Maybe the way this is structured just needs to
+    // be seriously re-worked.
     data() {
       // console.log(`PAGE ${pageName} DATA: ${Object.keys(this)}`);
 
