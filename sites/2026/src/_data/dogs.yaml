@@ -1,47 +1,311 @@
-- name: BOGUS NAME 1
+- name: Jasiri-Sukari Bet Half On SkyHi
+  ase: true
+  armband: 11
+  # ofaNum: 12345
+  # classPlace:
+  # award: bo
+  id: 11
+  createdAt: 2026-09-17T14:42:19
+  updatedAt: 2026-09-17T14:42:19
+  eventId: xx
+  userId: 11
+  quotient: half
+  ageClass: puppy
+  sex: M
+  birthdate: 2025-12-08
+  # breeder: (?)
+  owner: Laurie Stargell
+  city: Windsor
+  state: CO
+  registration: HP74311006
+  ancestors:
+    sire: { name: Avongara SkyHi Tomba Of Brushy Run }
+    dam: { name: Jasiri-Sukari High IQ, prefix: GCH }
+
+
+- name: Bon Mot African Brew & Biscotti
+  ase: true
+  armband: 7
+  # ofaNum: 12345
+  # classPlace:
+  # award: bo
+  suffix: STR
+  id: 5
+  createdAt: 2026-08-31T05:23:19
+  updatedAt: 2026-08-31T05:23:19
+  eventId: xx
+  userId: 5
+  quotient: one_quarter
+  ageClass: puppy
+  sex: M
+  birthdate: 2025-12-01
+  breeder: Suzanne LaCroix, Brooke E Barker
+  owner: Brooke E Barker, Suzanne LaCroix
+  city: New Hudson
+  state: MI
+  registration: HP74241101
+  ancestors:
+    sire: { name: Signet The Last Emperor, prefix: CH, suffix: CAT }
+    dam: { name: HiCotn African Sweet On Bon Mot, prefix: , suffix: TKN }
+
+
+- name: Avongara SkyHi Crown Thy Good In Brotherhood
+  ase: true
+  armband: 9
+  # ofaNum: 12345
+  # classPlace:
+  # award: bo
+  id: 7
+  createdAt: 2026-08-31T18:16:28
+  updatedAt: 2026-08-31T18:16:28
+  eventId: xx
+  userId: 7
+  quotient: full
+  ageClass: adult
+  sex: M
+  birthdate: 2024-12-03
+  # breeder: (?)
+  owner: Tracie Dimitri, Laura Gilchrist , Laurie Stargell
+  city: Smithville
+  state: TN
+  registration: HP72092002
+  ancestors:
+    sire: { name: Avongara SkyHi Tomba Of Brushy Run }
+    dam: { name: Avongara Ntomba SkyHi Liberty }
+
+
+- name: Dibu’s Bakindo
+  ase: true
+  armband: 5
+  # ofaNum: 12345
+  # classPlace:
+  # award: bo
+  suffix: SC
+  id: 2
+  createdAt: 2026-08-25T12:12:46
+  updatedAt: 2026-08-25T12:12:46
+  eventId: xx
+  userId: 2
+  quotient: half
+  ageClass: adult
+  sex: M
+  birthdate: 2018-01-07
+  breeder: James E Johannes
+  owner: James E Johannes
+  city: SeaTac
+  state: WA
+  registration: HP55368204
+  ancestors:
+    sire: { name: No Ka Oi’s Pono Pride Kalani }
+    dam: { name: Avongara Kiri, prefix: , suffix: SC }
+
+
+- name: Avongara Kiri
+  ase: true
+  armband: 6
+  # ofaNum: 12345
+  # classPlace:
+  # award: bo
+  suffix: SC
+  id: 1
+  createdAt: 2026-08-25T12:12:46
+  updatedAt: 2026-08-25T12:12:46
+  eventId: xx
+  userId: 1
+  quotient: full
+  ageClass: adult
+  sex: F
+  birthdate: 2014-12-18
+  breeder:
+  owner: James E Johannes
+  city: SeaTac
+  state: WA
+  registration: HP52215501
+  ancestors:
+    sire: { name:  }
+    dam: { name:  }
+
+
+- name: Avongara Which Witch is Which by Itzyu
   ase: true
   armband: 14
   # ofaNum: 12345
-  classPlace: 1
-  award: bos
-  id: P5XWJ
-  createdAt: 2025-10-01T22:10:37.45193083Z
-  updatedAt: 2025-10-14T00:54:36.594247968Z
-  eventId: NJjEx
-  userId: Axk2o
-  quotient: three_quarter
-  ageClass: puppy
+  # classPlace:
+  # award: bo
+  id: 8
+  createdAt: 2026-09-02T15:12:07
+  updatedAt: 2026-09-02T15:12:07
+  eventId: xx
+  userId: 8
+  quotient: full
+  ageClass: adult
   sex: F
-  birthdate: 2026-05-25T00:00:00Z
-  breeder: BREEDER 1
-  owner: OWNER 1
-  city: CITY 1
-  state: STATE 1
-  registration: REG 1
+  birthdate: 2024-07-29
+  # breeder: (?)
+  owner: Laura Gilchrist, Lisa Auerbach
+  city: Smithville
+  state: TN
+  registration: HP71038001
   ancestors:
-    sire: { name: SIRE 1, prefix: CH }
-    dam: { name: DAM 1, suffix: SC }
+    sire: { name: Avongara The Mighty Quinn Itzyu }
+    dam: { name: Avongara Easy Lover Itzyu }
 
-- name: BOGUS NAME 2
+
+- name: HiCotn African Sweet On Bon Mot
   ase: true
-  armband: 15
+  armband: 8
   # ofaNum: 12345
-  classPlace: 1
-  award: bob
-  id: JR3NP
-  createdAt: 2025-10-01T22:28:39.387999476Z
-  updatedAt: 2025-10-14T00:55:48.290696954Z
-  eventId: NJjEx
-  userId: Axk2o
-  quotient: three_quarter
-  ageClass: puppy
-  sex: M
-  birthdate: 2026-05-25T00:00:00Z
-  breeder: BREEDER 2
-  owner: OWNER 2
-  city: CITY 2
-  state: STATE 2
-  registration: REG 2
+  # classPlace:
+  # award: bo
+  suffix: TKN
+  id: 3
+  createdAt: 2026-08-31T17:11:19
+  updatedAt: 2026-08-31T17:11:19
+  eventId: xx
+  userId: 3
+  quotient: half
+  ageClass: adult
+  sex: F
+  birthdate: 2019-12-25
+  # breeder: (?)
+  owner: Suzanne LaCroix, Brooke E Barker
+  city: New Hudson
+  state: MI
+  registration: HP60508101
   ancestors:
-    sire: { name: SIRE 2, prefix: CH }
-    dam: { name: DAM 2, suffix: SC }
+    sire: { name: HiCotn Built to Last }
+    dam: { name: Avongara Nia }
+
+
+- name: Laurel Ziggity Solar Phenomenon
+  ase: true
+  armband: 16
+  # ofaNum: 12345
+  # classPlace:
+  # award: bo
+  prefix: GCH CH
+  id: 9
+  createdAt: 2026-09-06T20:53:13
+  updatedAt: 2026-09-06T20:53:13
+  eventId: xx
+  userId: 9
+  quotient: half
+  ageClass: adult
+  sex: F
+  birthdate: 2023-12-21
+  # breeder: (?)
+  owner: Laura Mae Hesse
+  city: Poynette
+  state: WI
+  registration: HP69419902
+  ancestors:
+    sire: { name: Avongara Timar Zigs to SkyHi }
+    dam: { name: Laurel Bravissima Too Too Tallulah, prefix: GCH }
+
+
+- name: Bon Mot African Pastilles
+  ase: true
+  armband: 10
+  # ofaNum: 12345
+  # classPlace:
+  # award: bo
+  prefix: MBIF FC
+  suffix: SC
+  id: 4
+  createdAt: 2026-08-31T17:11:19
+  updatedAt: 2026-08-31T17:11:19
+  eventId: xx
+  userId: 4
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  birthdate: 2023-12-24
+  breeder: Suzanne LaCroix, Brooke E Barker
+  owner: Suzanne LaCroix, Brooke E Barker
+  city: New Hudson
+  state: MI
+  registration: HP69322302
+  ancestors:
+    sire: { name: Bon Mot Favorite Fighting Frenchman, prefix: BIF DC, suffix: SC }
+    dam: { name: HiCotn African Sweet On Bon Mot, prefix: , suffix: TKN }
+
+
+- name: Bon Mot African Truffle
+  ase: true
+  armband: 12
+  # ofaNum: 12345
+  # classPlace:
+  # award: bo
+  prefix: FC
+  suffix: SC
+  id: 6
+  createdAt: 2026-08-31T17:11:19
+  updatedAt: 2026-08-31T17:11:19
+  eventId: xx
+  userId: 6
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  birthdate: 2023-12-24
+  breeder: Suzanne LaCroix, Brooke E Barker
+  owner: Suzanne LaCroix, Brooke E Barker
+  city: New Hudson
+  state: MI
+  registration: HP69322301
+  ancestors:
+    sire: { name: Bon Mot Favorite Fighting Frenchman, prefix: BIF DC, suffix: SC }
+    dam: { name: HiCotn African Sweet On Bon Mot, prefix: , suffix: TKN }
+
+
+- name: Taji’s Asian Flower Power At Bluenote
+  ase: true
+  armband: 18
+  # ofaNum: 12345
+  # classPlace:
+  # award: bo
+  prefix: GCH DC
+  suffix: SC BCAT
+  id: 10
+  createdAt: 2026-09-11T14:08:01
+  updatedAt: 2026-09-11T14:08:01
+  eventId: xx
+  userId: 10
+  quotient: one_quarter
+  ageClass: adult
+  sex: F
+  birthdate: 2014-10-01
+  breeder: Katie Campbell
+  owner: Holly Hamilton, Katie Campbell
+  city: Cincinnati
+  state: OH
+  registration: HP48081301
+  ancestors:
+    sire: { name: Taji’s Hafrican Chief, prefix: NFC DC, suffix: RN SC OA OAJ OFA OF CA ACT1 TKN }
+    dam: { name: Taji’s Banh Mi On The Runway To Blue Note, prefix: GCH DC, suffix: MC LCX }
+
+
+- name: Wambuti’s Dayo
+  ase: true
+  armband: 13
+  # ofaNum: 12345
+  # classPlace:
+  # award: bo
+  prefix: GCH CH
+  suffix: JC CAX FCAT5 ATT
+  id: 12
+  createdAt: 2026-09-24T16:49:02
+  updatedAt: 2026-09-24T16:49:02
+  eventId: xx
+  userId: 12
+  quotient: one_quarter
+  ageClass: veteran
+  sex: M
+  birthdate: 2015-12-26
+  # breeder: (?)
+  owner: Felice M Lang
+  city: Stamford
+  state: CT
+  registration: HP51506201
+  ancestors:
+    sire: { name: C-Quest Jokuba.Dandy Shandy, prefix: BIS BISS Dt (VDH) LUX JCH NL LUX B A Int CH Dt (VDH) DT (Club) CH }
+    dam: { name: Kibushi Heart And Soul, prefix: Dt (VDH) CH }
